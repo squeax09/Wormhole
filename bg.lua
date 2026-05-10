@@ -34,12 +34,12 @@ function manager:draw()
         love.graphics.draw(self.tbp_canvas, 0, 0, 0, self.canvas_scale, self.canvas_scale)
         if cooldown <= 0 then
             local time = love.timer.getAverageDelta()
-            if time > target then
+            if time > target and time < 3 then -- Big time like this is likely we got backgrounded
                 local difference = time - target
                 local times = (difference / target)
                 if times > 0.2 then
                     print(string.format("Time is %.2fx above target", times))
-                    lag_scale = lag_scale + (times / 3)
+                    lag_scale = lag_scale + math.min((times / 3), 1)
                     print(lag_scale - (times / 3), ">", lag_scale)
                     self.tbp_canvas = nil
                 end
