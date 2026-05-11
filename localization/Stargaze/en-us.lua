@@ -81,7 +81,7 @@ return {
 					"{s:0.8}({X:chips,C:white,s:0.8}X#3#{s:0.8} instead if all Joker slots filled)",
 					"if {C:attention}poker hand{} has not",
 					"been played {C:attention}this round{}",
-					"{C:inactive}(Currently: {X:chips,C:white}X#1#{} {C:inactive}Chips){}"
+					"{C:inactive}(Currently {X:chips,C:white}X#1#{} {C:inactive}Chips){}"
 				},
 			},
 

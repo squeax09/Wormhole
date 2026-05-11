@@ -1048,7 +1048,7 @@ SMODS.Consumable { -- Stargarita
             primed = false,
             empty_sound = "worm_abs_drink",
         },
-        extra = { drawn_cards = 2 },
+        extra = { drawn_cards = 3 },
     },
     cost = 3,
     loc_vars = function(self, info_queue, card)
@@ -1074,8 +1074,9 @@ SMODS.Consumable { -- Stargarita
         if context.drawing_cards and card.ability.drink_values.filled and card.ability.drink_values.primed and not context.repetition then
             G.E_MANAGER:add_event(Event({
                 func = function()
-                    draw_card(G.deck, G.hand)
-                    draw_card(G.deck, G.hand)
+                    for i = 1, card.ability.extra.drawn_cards do
+                        draw_card(G.deck, G.hand)
+                    end
                     SMODS.calculate_effect({ message = localize { type = 'variable', key = 'a_drawn', vars = { card.ability.extra.drawn_cards } }, colour = G.C.BLUE, }, card)
                     card:abs_empty_drink()
                     return true
@@ -1084,7 +1085,20 @@ SMODS.Consumable { -- Stargarita
         end
     end,
     use = function(self, card, area, copier)
-        card:abs_toggle_drink_prime()
+        if G.hand.cards and #G.hand.cards > 0 and card.ability.drink_values.filled then
+            G.E_MANAGER:add_event(Event({
+                func = function()
+                    for i = 1, card.ability.extra.drawn_cards do
+                        draw_card(G.deck, G.hand)
+                    end
+                    SMODS.calculate_effect({ message = localize { type = 'variable', key = 'a_drawn', vars = { card.ability.extra.drawn_cards } }, colour = G.C.BLUE, }, card)
+                    card:abs_empty_drink()
+                    return true
+                end
+            }))
+        else
+            card:abs_toggle_drink_prime()
+        end
     end,
     can_use = function(self, card)
         return card.ability.drink_values.filled
