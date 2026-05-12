@@ -110,7 +110,7 @@ return {
 					"Start with a {C:dark_edition}Negative{} {C:attention,T:j_space}Space Joker{}",
 					"Planet cards have a {C:green}#1# in #2#{} chance",
 					"to create a {C:tarot}Tarot{} or {C:spectral}Spectral{} card",
-					"{C:inactive}(Ignores Consumable limit){}"
+					"{C:inactive}(Must have room!){}"
 				},
 			},
 		},
