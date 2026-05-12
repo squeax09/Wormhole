@@ -534,6 +534,7 @@ SMODS.Joker {
 		return { vars = { card.ability.extra.inc_x_mult, card.ability.extra.x_mult } }
 	end,
 	in_pool = function(self, args)
+		if not G.playing_cards then return false end
 		for k,v in ipairs(G.playing_cards) do
 			if v.edition and v.edition == 'e_worm_bap_void' then
 				return true
