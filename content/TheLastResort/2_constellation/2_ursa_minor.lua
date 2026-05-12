@@ -19,6 +19,8 @@ SMODS.Consumable{
             func = function() 
                 G.GAME.blind.chips = math.floor(G.GAME.blind.chips - G.GAME.blind.chips * card.ability.fraction[card.ability.tier])
                 G.GAME.blind.chip_text = number_format(G.GAME.blind.chips)
+                G.HUD_blind:get_UIE_by_ID('HUD_blind_count'):juice_up(0.3, 0.3)
+                play_sound('xblindsize', 1, 0.7)
                 return true
             end
         }))
