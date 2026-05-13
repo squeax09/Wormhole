@@ -575,7 +575,7 @@ SpaceTart({
 	boosted_conds = {
 		-- First condition
 		function(card)
-			return card.config and card.config.center_key == "j_worm_meow_feli"
+			return card.config and card.config.center_key == "j_worm_meow_feli" or card:has_attribute("mult") or card:has_attribute("xmult")
 		end,
 
 		-- Rainbow condition
@@ -667,7 +667,7 @@ SpaceTart({
 	boosted_conds = {
 		-- First condition
 		function(card)
-			return card.config and card.config.center_key == "j_worm_meow_nyan_cat"
+			return card.config and card.config.center_key == "j_worm_meow_nyan_cat" or card:has_attribute("retrigger")
 		end,
 
 		-- Rainbow condition
@@ -884,7 +884,7 @@ SpaceTart({
 	boosted_conds = {
 		-- First condition
 		function(card)
-			return card.config and card.config.center_key == "j_worm_meow_cotobo_box"
+			return card.config and card.config.center_key == "j_worm_meow_cotobo_box" or card:has_attribute("chips") or card:has_attribute("xchips")
 		end,
 
 		-- Rainbow condition
@@ -927,7 +927,7 @@ SpaceTart({
 	boosted_conds = {
 		-- First condition
 		function(card)
-			return card.config and card.config.center_key == "j_worm_meow_nyarlathotep"
+			return card.config and card.config.center_key == "j_worm_meow_nyarlathotep" or card:has_attribute("balance")
 		end,
 
 		-- Rainbow condition
