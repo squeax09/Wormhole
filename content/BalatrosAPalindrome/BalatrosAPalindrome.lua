@@ -410,7 +410,9 @@ SMODS.Joker {
 					colour = G.C.FILTER
 				}
 			end
-			card.ability.extra.jokers = card.ability.extra.jokers - 1
+			if not context.blueprint then
+				card.ability.extra.jokers = card.ability.extra.jokers - 1
+			end
 			return {
 				message = card.ability.extra.jokers .. '',
 				colour = G.C.FILTER
