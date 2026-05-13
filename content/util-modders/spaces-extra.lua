@@ -77,7 +77,7 @@ SMODS.Voucher {
 
 local _add_to_pool = SMODS.add_to_pool
 function SMODS.add_to_pool(proto, args)
-    if G.GAME.modifiers.void_stake and (proto.set == "Planet") or (proto.set == "Booster" and proto.kind == 'Celestial') then
+    if G.GAME.modifiers.void_stake and (proto.set == "Booster" and proto.kind == 'Celestial') then
         --print('no pool')
         return false
     end
@@ -93,13 +93,6 @@ SMODS.Stake {
     modifiers = function ()
         G.GAME.planet_rate = 0
         G.GAME.modifiers.void_stake = true
-
-        -- Ban some planet-generating objects
-        G.GAME.banned_keys['c_high_priestess'] = true
-        G.GAME.banned_keys['v_planet_merchant'] = true
-        G.GAME.banned_keys['v_planet_tycoon'] = true
-        G.GAME.banned_keys['tag_meteor'] = true
-        G.GAME.banned_keys['Blue'] = true
     end
 }
 
