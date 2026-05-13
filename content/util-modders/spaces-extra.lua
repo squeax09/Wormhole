@@ -93,6 +93,13 @@ SMODS.Stake {
     modifiers = function ()
         G.GAME.planet_rate = 0
         G.GAME.modifiers.void_stake = true
+
+        -- Ban some planet-generating objects
+        G.GAME.banned_keys['c_high_priestess'] = true
+        G.GAME.banned_keys['v_planet_merchant'] = true
+        G.GAME.banned_keys['v_planet_tycoon'] = true
+        G.GAME.banned_keys['tag_meteor'] = true
+        G.GAME.banned_keys['Blue'] = true
     end
 }
 
