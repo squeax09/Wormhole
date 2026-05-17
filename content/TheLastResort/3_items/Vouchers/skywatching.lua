@@ -9,11 +9,7 @@ SMODS.Voucher {
     config = { extra = { rate = 4 } },
 
     redeem = function(self, card)
-        G.E_MANAGER:add_event(Event({
-            func = function()
-                G.GAME.worm_tlr_constellation_rate = card.ability.extra.rate
-                return true
-            end
-        }))
+        G.GAME.worm_tlr_constellation_rate = card.ability.extra.rate
+        G.consumables:change_size(1)
     end
 }

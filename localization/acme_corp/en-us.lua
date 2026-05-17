@@ -202,9 +202,10 @@ return {
             v_worm_ACME_voucher_1 = {
                 name = "ACME Mass Production",
                 text = {
-                    "{C:acme_gadget}Gadget{} cards appear",
+                    {"{C:acme_gadget}Gadget{} cards appear",
                     "{C:attention}2X{} more frequently",
-                    "in the shop"
+                    "in the shop"},
+                    {"{C:attention}+1{} consumable slot",}
                 }
             },
             v_worm_ACME_voucher_2 = {

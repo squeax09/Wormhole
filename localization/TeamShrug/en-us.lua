@@ -124,9 +124,10 @@ return {
             v_worm_shrug_first_contact = {
                 name = "First Contact",
                 text = {
-                    "{C:dark_edition}Alien{} cards may",
+                    {"{C:dark_edition}Alien{} cards may",
                     "appear in any",
-                    "{C:planet}Celestial Pack{}"
+                    "{C:planet}Celestial Pack{}"},
+                    {"{C:attention}+1{} consumable slot",}
                 }
             },
 

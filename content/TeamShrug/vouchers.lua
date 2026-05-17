@@ -34,6 +34,10 @@ SMODS.Voucher {
         end
     end,
 
+    redeem = function(self, card)
+        G.consumables:change_size(1)
+    end,
+
     -- Credits
     ppu_coder = {
         "microwave",

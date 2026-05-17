@@ -472,8 +472,9 @@ return {
             v_worm_abs_happy_hour = {
                 name = 'Happy Hour',
                 text = {
-                    '{C:abs_drinks}Drinks{} can now',
-                    'appear in the {C:attention}Shop'
+                    {'{C:abs_drinks}Drinks{} can now',
+                    'appear in the {C:attention}Shop',},
+                    {"{C:attention}+1{} consumable slot",}
                 }
             },
             v_worm_abs_on_the_house = {

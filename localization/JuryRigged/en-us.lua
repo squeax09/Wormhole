@@ -189,8 +189,9 @@ return {
       v_worm_jr_launch_pad = {
         name = 'Launchpad',
         text = {
-          "Adds {C:attention}#1#{} {C:worm_jr_satellite}Satellite{} card",
-          "to {C:planet}Celestial{} packs"
+          {"Adds {C:attention}#1#{} {C:worm_jr_satellite}Satellite{} card",
+          "to {C:planet}Celestial{} packs"},
+          {"{C:attention}+1{} consumable slot",}
         }
       },
       v_worm_jr_flyby = {

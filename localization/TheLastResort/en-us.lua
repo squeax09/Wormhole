@@ -455,8 +455,9 @@ return {
 			v_worm_tlr_skywatching = {
 				name = 'Skywatching',
 				text = {
-					'Tier {C:attention}1{C:worm_tlr_constellation} Constellations{}',
-            		'may appear in the shop'
+					{'Tier {C:attention}1{C:worm_tlr_constellation} Constellations{}',
+            		'may appear in the shop'},
+                    {"{C:attention}+1{} consumable slot",}
 				}
 			},
 			v_worm_tlr_stargazing = {

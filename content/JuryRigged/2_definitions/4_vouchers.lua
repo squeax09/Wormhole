@@ -37,6 +37,10 @@ SMODS.Voucher {
     end
   end,
 
+  redeem = function(self, card)
+      G.consumables:change_size(1)
+  end,
+
   loc_vars = function(self, info_queue, card)
     return {
       vars = {
