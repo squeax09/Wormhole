@@ -117,3 +117,14 @@ end
 function WORM_TLR.has_mask ()
 	return next(find_joker("j_worm_tlr_nomaimask"))
 end
+
+function WORM_TLR.find_constellations()
+    local results = {}
+    if not G.consumeables or not G.consumeables.cards then return {} end
+    for _, v in pairs(G.consumeables.cards) do
+        if v and type(v) == 'table' and v.ability.set == 'worm_tlr_constellation' then
+            table.insert(results, v)
+        end
+    end
+    return results
+end

@@ -61,6 +61,9 @@ SMODS.Consumable{
 		}))
 		delay(0.5)
 	end,
+	in_pool = function(self, args)
+		return next(WORM_TLR.find_constellations())
+	end,
 	ppu_team = {"TheLastResort"},
 	ppu_coder = {"Foo54"},
 	ppu_artist = {"Aura2247"},
