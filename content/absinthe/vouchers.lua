@@ -17,7 +17,7 @@ SMODS.Voucher {
     ppu_team = { 'absinthe' },
     redeem = function(self, card)
         G.GAME.abs_drinks_rate = 2
-        G.consumables:change_size(1)
+        G.consumeables:change_size(1)
     end
 }
 
