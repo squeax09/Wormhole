@@ -446,8 +446,9 @@ return {
 			v_worm_tlr_skywatching = {
 				name = '观天',
 				text = {
-					'{C:attention}1{}阶段{C:worm_tlr_constellation}星座{}',
-            		'可能出现在商店中'
+					{'{C:attention}1{}阶段{C:worm_tlr_constellation}星座{}',
+            		'可能出现在商店中'},
+					{"消耗牌槽位{C:attention}+1{}",}
 				}
 			},
 			v_worm_tlr_stargazing = {

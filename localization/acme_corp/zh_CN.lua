@@ -197,8 +197,9 @@ return {
             v_worm_ACME_voucher_1 = {
                 name = "ACME量产",
                 text = {
-                    "{C:acme_gadget}装置{}牌",
-                    "出现频率{C:attention}X2{}"
+                    {"{C:acme_gadget}装置{}牌",
+                    "出现频率{C:attention}X2{}"},
+                    {"消耗牌槽位{C:attention}+1{}",}
                 }
             },
             v_worm_ACME_voucher_2 = {

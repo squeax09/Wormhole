@@ -470,8 +470,9 @@ return {
             v_worm_abs_happy_hour = {
                 name = '快乐时光',
                 text = {
-                    '{C:abs_drinks}饮品{}现在可以',
-                    '出现在{C:attention}商店{}之中'
+                    {'{C:abs_drinks}饮品{}现在可以',
+                    '出现在{C:attention}商店{}之中'},
+                    {"消耗牌槽位{C:attention}+1{}",}
                 }
             },
             v_worm_abs_on_the_house = {

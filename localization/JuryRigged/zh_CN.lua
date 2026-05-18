@@ -185,8 +185,9 @@ return {
       v_worm_jr_launch_pad = {
         name = '发射台',
         text = {
-          "{C:planet}天体包{}中增加{C:attention}#1#{}张",
-          "{C:worm_jr_satellite}卫星{}牌"
+          {"{C:planet}天体包{}中增加{C:attention}#1#{}张",
+          "{C:worm_jr_satellite}卫星{}牌"},
+          {"消耗牌槽位{C:attention}+1{}",}
         }
       },
       v_worm_jr_flyby = {

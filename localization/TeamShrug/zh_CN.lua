@@ -123,9 +123,10 @@ return {
             v_worm_shrug_first_contact = {
                 name = "初次接触",
                 text = {
-                    "{C:dark_edition}外星生物{}牌",
+                    {"{C:dark_edition}外星生物{}牌",
                     "可能出现在任何",
-                    "{C:planet}星球包{}中"
+                    "{C:planet}星球包{}中"},
+                    {"消耗牌槽位{C:attention}+1{}",}
                 }
             },
 
