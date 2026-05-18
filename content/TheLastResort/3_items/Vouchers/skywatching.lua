@@ -10,6 +10,6 @@ SMODS.Voucher {
 
     redeem = function(self, card)
         G.GAME.worm_tlr_constellation_rate = card.ability.extra.rate
-        G.consumables:change_size(1)
+        G.consumeables:change_size(1)
     end
 }

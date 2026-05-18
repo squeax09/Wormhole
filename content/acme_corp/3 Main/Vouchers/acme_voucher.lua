@@ -8,7 +8,7 @@ SMODS.Voucher {
     config = { extra = {} },
     redeem = function(self, card)
         SMODS.ConsumableTypes['ACME_Gadget'].shop_rate = 2
-        G.consumables:change_size(1)
+        G.consumeables:change_size(1)
     end
 }
 
