@@ -77,14 +77,16 @@ local function catelite(card)
 				pos = k
 			end
 		end
-		local cad1, cad2 = G.jokers.cards[pos - 1], G.jokers.cards[pos + 1]
-		if cad1 and cad1.config and cad1.config.center_key == "j_worm_meow_catelite" then
-			ret = ret + (cad1.ability.extra.level or 0)
+		if pos then
+			local cad1, cad2 = G.jokers.cards[pos - 1], G.jokers.cards[pos + 1]
+			if cad1 and cad1.config and cad1.config.center_key == "j_worm_meow_catelite" then
+				ret = ret + (cad1.ability.extra.level or 0)
+			end
+			if cad2 and cad2.config and cad2.config.center_key == "j_worm_meow_catelite" then
+				ret = ret + (cad2.ability.extra.level or 0)
+			end
+			return ret
 		end
-		if cad2 and cad2.config and cad2.config.center_key == "j_worm_meow_catelite" then
-			ret = ret + (cad2.ability.extra.level or 0)
-		end
-		return ret
 	end
 end
 
