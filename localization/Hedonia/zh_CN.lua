@@ -16,7 +16,8 @@ return {
                 text = {
                     {
                         '打出的{C:edition}{E:2}微醺{}、{C:edition}{E:1}醉酒{}、{C:dark_edition}{E:1}大醉{}',
-                        '和{C:dark_edition}断片{}牌在计分时变为',
+                        '以及 {C:dark_edition}断片{} 牌时',
+                        '有 {C:green}#1#/#2#{} 的几率在计分时转化为',
                         '{C:attention}幸运牌{}',
                     },
                     {
