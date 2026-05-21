@@ -233,6 +233,9 @@ return {
             dictionary = {
                 k_thorn_giygas_reveal = 'Revealed!',
                 k_thorn_giygas_enhanced = 'Enhanced!',
+            },
+            v_dictionary = {
+                k_thorn_hand_already_played = "#1# has been played this ante"
             }
         }
 }
