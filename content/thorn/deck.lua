@@ -78,7 +78,10 @@ SMODS.Back{
             if context.check then
                 if G.GAME.hands[context.scoring_name].played_this_ante and G.GAME.hands[context.scoring_name].played_this_ante > 0 then
                     return {
-                        debuff = true
+                        debuff = true,
+                        debuff_text = localize{
+                            type = "variable", key = "k_thorn_hand_already_played", vars = {context.scoring_name}
+                        }
                     }
                 end
             elseif G.GAME.hands[context.scoring_name].played_this_ante and G.GAME.hands[context.scoring_name].played_this_ante > 1 then
