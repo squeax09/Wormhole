@@ -357,9 +357,9 @@ SMODS.Consumable { -- Supergiant Cider
         }
     end,
     calculate = function(self, card, context)
-        if context.before and not card.ability.drink_values.filled and
-            (next(context.poker_hands["Full House"]) or next(context.poker_hands["Four of a Kind"])
-                or next(context.poker_hands["Straight Flush"])) and not context.repetition then
+        if context.before and not card.ability.drink_values.filled
+            and SMODS.PokerHands[context.scoring_name].chips * SMODS.PokerHands[context.scoring_name].mult >= SMODS.PokerHands[card.ability.extra.poker_hand].chips * SMODS.PokerHands[card.ability.extra.poker_hand].mult
+            and not context.repetition then
             card:abs_refill_drink()
         end
 
