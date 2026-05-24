@@ -10,7 +10,7 @@ SMODS.Consumable{
     },
     loc_vars = function (self, info_queue, card)
 
-        local fool_c = G.GAME.worm_tlr_last_const_used and ("%s_t%d"):format(G.GAME.worm_tlr_last_const_used, math.max(G.GAME.worm_tlr_last_const_used_tier or 1, card.ability.tiers[card.ability.tier])) or nil
+        local fool_c = G.GAME.worm_tlr_last_const_used and ("%s_t%d"):format(G.GAME.worm_tlr_last_const_used, card.ability.tiers[card.ability.tier]) or nil
         local last_constellation = fool_c and localize { type = 'name_text', key = fool_c, set = "worm_tlr_constellation" } or
             localize('k_none')
         local colour = (not fool_c) and G.C.RED or G.C.GREEN
@@ -18,7 +18,7 @@ SMODS.Consumable{
         -- info_queue[#info_queue+1] = G.GAME.worm_tlr_last_const_used and G.P_CENTERS[G.GAME.worm_tlr_last_const_used] or nil
 
        if G.GAME.worm_tlr_last_const_used and G.GAME.worm_tlr_last_const_used ~= "c_worm_tlr_const_canis_minor" then
-        local max_tier = math.max(G.GAME.worm_tlr_last_const_used_tier, card.ability.tiers[card.ability.tier])
+        local max_tier = card.ability.tiers[card.ability.tier]
         local obj = G.P_CENTERS[G.GAME.worm_tlr_last_const_used]
         local config = copy_table(obj.config)
         config.tier = max_tier
@@ -54,7 +54,7 @@ SMODS.Consumable{
     use = function(self,card,area,copier)
         local newcard = SMODS.add_card({key = G.GAME.worm_tlr_last_const_used})
         if card.ability.tier >= 3 then newcard:set_edition("e_negative") end
-        newcard.ability.tier = math.max(G.GAME.worm_tlr_last_const_used_tier, card.ability.tiers[card.ability.tier])
+        newcard.ability.tier = card.ability.tiers[card.ability.tier]
         WORM_TLR.update_const_sprite(newcard.config.center, newcard)
     end
 }
