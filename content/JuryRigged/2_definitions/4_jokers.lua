@@ -143,7 +143,7 @@ SMODS.Joker {
   end,
 
   calculate = function(self, card, context)
-    if context.poker_hand_changed and not context.blueprint and (context.new_level > context.old_level) then
+    if context.poker_hand_changed and not context.blueprint and context.new_level and (context.new_level > context.old_level) then
       card.ability.extra.counter = card.ability.extra.counter + (context.new_level - context.old_level)
 
       SMODS.calculate_effect({ message = card.ability.extra.counter .. '/' .. card.ability.extra.req, colour = G.C.ATTENTION }, card)
