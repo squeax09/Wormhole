@@ -7,21 +7,21 @@ return {
             d_twigi = {
                 name = "Twigi",
                 text = {
-                    "Lead Programmer", "Artist of", "Eclipse, Supergiant, Nebula", "Extremely Swag B)"
+                    "首席程序员", "艺术家", "日食、超巨星、星云", "极度 Swag B)"
                 }
             },
             d_joos = {
                 name = "Oasis-J",
                 text = {
-                    "Lead Artist", "Programmer of", "Cosmic, Dyson Sphere & Event Horizon", '~My body is a machine',
-                    'that turns hyperdrive into', 'the worst art ever~'
+                    "首席艺术家", "程序员", "宇宙、戴森球和事件地平线", '我的身体是一台机器',
+                    '将超光速驱动转化为', '史上最糟糕的艺术～'
                 }
             },
             d_avery = {
                 name = "AveryIGuess",
                 text = {
-                    "Concept Art", "Frozen Card Idea", "Laika, Shining Star, Permafrost", "Space Heater & Jettison",
-                    "Mechanic Ideas", "Chomping Rocks"
+                    "概念艺术", "冰冻卡片创意", "莱卡，闪耀之星，永久冻土", "太空加热器和 Jettison",
+                    "机械理念", "咀嚼岩石"
                 }
             },
         },

@@ -8,30 +8,30 @@ return {
                 text = {
                     {
                         "{s:2} {}",
-                        "There's at least {s:1.5,C:attention}a few{} of us",
-                        "Most of us go by the names Ash or Memphis, interchangeably.",
+                        "至少有一些 {s:1.5,C:attention} 我们是 {}",
+                        "我们大多数人都用 Ash 或 Memphis 这两个名字，可以互换使用。",
                         "One of us chose not to have a name.",
-                        "It/They | Plural"
+                        "它/他们 | 复数"
                     },
                     {
-                        "Made the music for {C:attention}Eigengrau Emptiness{}, came up with initial ideas for",
-                        "{C:attention}Hitchhiker's Guide{} and {C:attention} Moon Berry{}. {C:inactive,s:0.85}Did some other things as well.",
-                        "Also did programming, hunting for the sfx, and art {s:1.25}direction{} for moon berry.",
-                        "Pretty proud of all the details I added in the way the joker works.",
-                        "{s:0.5} {}",
-                        "{C:inactive}It looks like you're trying to seal the {C:dark_edition,E:1}Dark Fountain{C:inactive}, would you like some help?",
-                        "{C:inactive}Make sure to thank j8-bit for making Clippy!Ralsei so cute!"
+                        "为 {C:attention}Eigengrau Emptyness {} 创作音乐，并为",
+                        "{C:attention}Hitchhiker 的 Guide{} 和 {C:attention} Moon Berry{}。{C:inactive,s:0.85} 还做了一些其他事情。",
+                        "我还编写了程序，寻找 sfx，并为 Moon Berry 设计了 {s:1.25}direction{}。",
+                        "我为自己在小丑工作方式中添加的所有细节感到相当自豪。",
+                        "{s:0.5}{}",
+                        "{C:inactive}it 看起来你正在试图封闭 {C:dark_edition,E:1}Dark Fountain{C:inactive}，你需要帮助吗？",
+                        "{C:inactive} 一定要感谢 j8bit 让 Clippy! Ralsei 变得如此可爱！"
                     },
                     {
-                        "{C:dark_edition,E:2,s:1.75}Trials Of The Protogen {C:attention}coming soon!",
-                        "Lots of challenges and achievements to be had.",
-                        "{s:0.5} ",
-                        "Shoutouts to {C:lfc_trans_blue}T{C:lfc_trans_pink}r{}a{C:lfc_trans_pink}n{C:lfc_trans_blue}s {C:lfc_fox}Foxgirls!",
-                        "{C:dark_edition,E:1}Click on Clippy!Ralsei to make a thing happen",
+                        "{C:dark_edition,E:2,s:1.75}原型生物的试炼 {C:attention}即将推出！",
+                        "还有很多挑战和成就等待着我们。",
+                        "{s:0.5}",
+                        "向 {C:lfc_trans_blue}T{C:lfc_trans_pink}r{}a{C:lfc_trans_pink}n{C:lfc_trans_blue}s {C:lfc_fox}Fox 女孩们呐喊！",
+                        "{C:dark_edition,E:1}Z 点击 Clippy! Ralsei，让事情发生",
                         "{C:dark_edition,E:1,s:0.75}Click 5 times for something else"
                     },
                     {
-                        "So what's the deal with spaceport food?",
+                        "那么，太空港的食物是怎么回事？",
                     }
                 },
             },
@@ -40,30 +40,30 @@ return {
                 name = "ellestuff.",
                 text = {
                     {
-                        "{s:1.5,C:lfc_ash}8{s:1.5} of us and counting!",
-                        "{s:0.6,C:lfc_elle}elle.{s:0.6} | {s:0.6,C:green}Amber{s:0.6} | Emily | {s:0.6,C:planet}Umbra{s:0.6} | {s:0.6,C:blue}Sara{s:0.6} | {s:0.6,C:legendary}Suzy{s:0.6} | {s:0.6,C:lfc_ash}Ash{s:0.6} | {s:0.6,C:money}Rebecca",
-                        "{s:0.9}She/Her | Plural"
+                        "{s:1.5,C:lfc_ash}8{s:1.5} 我们的人还在数呢！",
+                        "{s:0.6,C:lfc_elle}elle.{s:0.6} | {s:0.6,C:green}amber{s:0.6} | Emily | {s:0.6,C:planet}Umbra{s:0.6} | {s:0.6,C:blue}Sara{s:0.6} | {s:0.6,C:legendary}Suzy{s:0.6} | {s:0.6,C:lfc_ash}Ash{s:0.6} | {s:0.6,C:money}Rebecca",
+                        "{s:0.9}She/Her | 复数"
                     },
                     {
-                        "{s:0.9}We made the code for the {s:0.9,C:lfc_meteor}Meteors{s:0.9},",
-                        "{s:0.9,C:rare}Spacebar{s:0.9}, and {s:0.9,C:uncommon}Astronaut Food{s:0.9},",
+                        "{s:0.9} 我们为 {s:0.9,C:lfc_meteor} 流星 {s:0.9} 编写了代码，",
+                        "{s:0.9,C:rare}Spacebar{s:0.9}，以及 {s:0.9,C:uncommon}astronaut Food{s:0.9},",
                         "{s:0.9}along with the shaders for the",
                         "{s:0.9,C:attention}Credits {s:0.9}and {s:0.9,C:uncommon}Urination Station",
                     },
                     {
-                        "If you're interested in",
+                        "如果你感兴趣",
                         "more of our stuff:",
                         "{s:0.8,X:blue,C:white}Bluesky{s:0.8} @ellestuff.dev",
-                        "{s:0.8,X:lfc_discord,C:white}Discord{s:0.8} ellestuff.dev/discord",
+                        "{s:0.8,X:lfc_discord,C:white}Discord{s:0.8}ellestuff.dev/discord",
                         "{s:0.8,X:lfc_dark,C:white}GitHub{s:0.8} @ellestuff",
-                        "{s:0.8}Play our mod {s:0.8,C:lfc_elle}ellejokers.{s:0.8},",
-                        "{s:0.8}we're adding {s:0.8,C:attention}Tenna{s:0.8} to it :3"
+                        "{s:0.8} 播放我们的模块 {s:0.8,C:lfc_elle}ellejokers。{s:0.8},",
+                        "{s:0.8} 我们正在添加 {s:0.8,C:attention}Tenna{s:0.8}:3"
                     },
                     {
                         "{s:0.9}Click 5 times to go to our {s:0.9,E:worm_elle_text}website",
-                        "{s:0.6}No, it won't count down. There's no {s:0.6,X:lfc_dark,C:white}loc_vars{s:0.6} on these.",
-                        "{s:0.6}The site is also very outdated rn but it'll be done later",
-                        "{s:0.6}This works on all 4 devs btw, check it out!"
+                        "{s:0.6}No，它不会倒计时。这些开发者上没有 {s:0.6,X:lfc_dark,C:white}loc_vars{s:0.6}。",
+                        "{s:0.6} 这个网站也非常过时了，但它将在后面完成。",
+                        "{s:0.6} 这个功能适用于所有 4 个开发者 btw，快来看看！"
                     }
                 }
             },
@@ -72,24 +72,24 @@ return {
                 name = "J8-Bit",
                 text = {
                     {
-                        "{s:1.5}So... {C:purple,s:1.5}chunks{s:1.5}, huh?"
+                        "{s:1.5}So...{C:purple,s:1.5}chunks{s:1.5}，嗯？"
                     },
                     {
-                        "{s:0.9}I made most of the artwork,",
+                        "{s:0.9} 创作了大部分艺术作品，",
                         "{s:0.9}the shader effects for",
-                        "{C:legendary,s:0.9}Moon Berry{s:0.9}, {C:uncommon,s:0.9}Golden Record{s:0.9},",
-                        "{s:0.9}and {s:0.9,C:common}Magical Girl{s:0.9},",
-                        "{s:0.9}and a good chunk of the",
-                        "{s:0.9}programming/design work"
+                        "{C:legendary,s:0.9}Moon Berry {s:0.9}、{C:uncommon,s:0.9}Golden Record {s:0.9}、",
+                        "{s:0.9} 和 {s:0.9,C:common} 魔法少女 {s:0.9},",
+                        "{s:0.9} 和一大块",
+                        "{s:0.9} 编程/设计工作"
                     },
                     {
-                        "If you're interested in",
+                        "如果你感兴趣",
                         "more of my stuff:",
                         "{s:0.8,X:blue,C:white}Bluesky{s:0.8} @j8-bit.bsky.social",
                         "{s:0.8,X:red,C:white}YouTube{s:0.8} @j8-bitforager842",
                         "{s:0.8,X:lfc_dark,C:white}Tumblr{s:0.8} @aforager",
-                        "{s:0.8}Play the {s:0.8,C:attention}Forager Nonessentials{s:0.8} mod!",
-                        "{s:0.8}Play CalvinChess on {s:0.8,X:lfc_dark,C:white}Steam{s:0.8}!",
+                        "{s:0.8} 播放 {s:0.8,C:attention}Forager Nonessentials {s:0.8} 模式！",
+                        "{s:0.8} 在 {s:0.8,X:lfc_dark,C:white}Steam{s:0.8} 上玩 CalvinChess!",
                         "{s:0.6}Click 5 times to open the {s:0.6,X:lfc_dark,C:white}Steam{s:0.6} page"
                     }
                 }
@@ -101,18 +101,18 @@ return {
                     {
                         "{s:1.5,E:worm_alexi_text}Alexi!",
                         "the weird and deranged",
-                        "shapeshifting slimegirl!",
+                        "变形史莱姆女孩！",
                         "{s:0.5}see {C:blue,s:0.5}https://en.pronouns.page/@invalidOS",
-                        "{s:0.5}for pronouns and links!",
-                        "just click me 5 times!",
+                        "{s:0.5} 用于代词和链接！",
+                        "只需要点击我 5 次！",
                     },
                     {
-                        "{s:0.8}I came up with a few of the ideas here,",
-                        "{s:0.8}my favorites being {C:uncommon,s:0.8}Urination Station{s:0.8} and {C:rare,s:0.8}Spacebar{s:0.8}!",
-                        "{s:0.8}I also coded {C:uncommon,s:0.8}Urination Station{s:0.8}, {C:uncommon,s:0.8}Stakataka{s:0.8}, and a few other things!",
-                        "{C:attention,s:0.8}The Fleet{s:0.8} was entirely done by me, and",
-                        "{s:0.8}the background of {C:attention,s:0.8,E:1}Eigengrau Emptiness{s:0.8} is some of",
-                        "{s:0.8}my proudest work yet! {s:0.5}(even if others got the same idea...)",
+                        "{s:0.8}I 在这里提出了一些想法，",
+                        "{s:0.8} 我最喜欢的是 {C:uncommon,s:0.8} 小便站 {s:0.8} 和 {C:rare,s:0.8}Spacebar{s:0.8}!",
+                        "{s:0.8} 还编码了 {C:uncommon,s:0.8} 小便站 {s:0.8}、{C:uncommon,s:0.8}Stakataka{s:0.8}，以及其他一些东西！",
+                        "{C:attention,s:0.8} 舰队 {s:0.8} 完全由我负责，",
+                        "{s:0.8} 的背景是 {C:attention,s:0.8,E:1}eigengrau Emptyness {s:0.8} 的一部分。",
+                        "{s:0.8} 是我迄今为止最自豪的作品！{s:0.5}(即使其他人也有同样的想法......)",
                     },
                     {
                         "lemniscate",
@@ -153,7 +153,7 @@ return {
             },
             j_worm_lfc_pissstream = {
                 name = "排尿站",
-                text = {    
+                text = {
                     "此小丑根据国际空间站",
                     "{C:chips}水{}、{C:mult}废物{}和{C:money}尿液{}储罐",
                     "各自的{C:attention}百分比填充度{}（向上取整），",

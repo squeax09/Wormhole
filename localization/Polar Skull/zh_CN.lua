@@ -200,26 +200,26 @@ return {
 				name = "cloudzXIII",
 				text = {
 					"{C:gold,E:1}May your heart be your guiding key",
-					"Helped with brainstorming and",
-					"coding the Jokers for our team!",
+					"帮助进行头脑风暴和",
+					"为我们的团队编写小丑代码！",
 				},
 			},
 			PotatoPatchDev_noodlemire = {
 				name = "Noodlemire",
 				text = {
 					"{C:money}Bowl of Noodles",
-					"Lead programmer and idea producer",
-					"behind the {C:polarskull_rocket}Rocket{} Cards!",
-					"Also made some art and bugfixes."
+					"首席程序员和创意制作人",
+					"在 {C:polarskull_rocket}Rocket{} 卡片背后！",
+					"还做了一些美术和 bug 修复工作。"
 				},
 			},
 			PotatoPatchDev_mariofan = {
 				name = "MarioFan597",
 				text = {
-					"{C:red,s:1.5,E:1}Letsa go!",
-					"Helped with various things like",
-					"text formating, brainstorming,",
-					"coding, and art"
+					"{C:red,s:1.5,E:1} 让我们开始吧！",
+					"帮助处理各种事情，例如：",
+					"文本格式化，头脑风暴，",
+					"编码和艺术"
 				},
 			},
 			PotatoPatchDev_rainstar = {
@@ -227,24 +227,24 @@ return {
 				text = {
 					"{C:money}The sun.",
 					"Formulated the team.",
-					"Coded 2 vouchers and a deck."
+					"编码 2 张凭证和一副牌。"
 				},
 			},
 			PotatoPatchDev_comykel = {
 				name = "Comykel",
 				text = {
-					"{C:attention,s:0.9,E:1}Throughout Heaven and Earth, I alone am the jobless one.{}",
-					"The one who did almost all of the art!",
-					"if you're interested in his works, see CMYKL (the mod!)",
+					"{C:attention,s:0.9,E:1} 纵观天地，我是唯一一个失业的人。{}",
+					"几乎创作了所有艺术作品的人！",
+					"如果你对他的作品感兴趣，请查看 CMYKL(Mod!)",
 				},
 			},
 			PotatoPatchDev_jade = {
 				name = "Jade Penguin",
 				text = {
 					"{C:green}Pupil of Chartreuse Chamber{}",
-					"Made some of the art, and helped made the ideas of",
-					"some of the stuff you see here from our team!",
-					"{C:dark_edition}+1{} Joker Slot :)",
+					"创作了一些艺术作品，并帮助构思了",
+					"你在这里看到的一些东西来自我们的团队！",
+					"{C:dark_edition}+1{} 小丑槽:)",
 				},
 			},
 		},
@@ -276,14 +276,14 @@ return {
 			c_worm_rocket_paper_scissors = "火箭石头剪子布",
 		},
 		quips = {
-			worm_polarskull_martian_party = {"{f:worm_polarskull_noto}🥳🎉🎊"},
-			worm_polarskull_martian_music = {"{f:worm_polarskull_noto}🤙👽🎸🎶"},
-			worm_polarskull_martian_world = {"{f:worm_polarskull_noto}🧑🌍👍👏"},
-			worm_polarskull_martian_workout = {"{f:worm_polarskull_noto}💪🃏🏋️🏙️"},
-			worm_polarskull_martian_plsrocket = {"{f:worm_polarskull_noto}👎👉🚀🙏"},
-			worm_polarskull_martian_dumbass = {"{f:worm_polarskull_noto}🤦🤷"},
-			worm_polarskull_martian_broke = {"{f:worm_polarskull_noto}💀🪦💔😢"},
-			worm_polarskull_martian_retry = {"{f:worm_polarskull_noto}🚮🔁🚶"},
+			worm_polarskull_martian_party = {"{f:worm_polarskull_noto}👸👍"},
+			worm_polarskull_martian_music = {"{f:worm_polarskull_noto}👍👍👍 {f:worm_polarskull_noto}👪🃏️🏙"},
+			worm_polarskull_martian_world = {"{f:worm_polarskull_noto}👸👍👍🃏"},
+			worm_polarskull_martian_workout = {"{f:worm_polarskull_noto}👩🃏️🏙️🏙️"},
+			worm_polarskull_martian_plsrocket = {"{f:worm_polarskull_noto}👍👍🏘"},
+			worm_polarskull_martian_dumbass = {"{f:worm_polarskull_noto}👩🏋"},
+			worm_polarskull_martian_broke = {"{f:worm_polarskull_noto}💷💷💷😢"},
+			worm_polarskull_martian_retry = {"{f:worm_polarskull_noto}🮚💔🁨"},
 		},
 		achievement_names = {
 			ach_worm_polarskull_dandori = "丹多里",

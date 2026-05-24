@@ -5,20 +5,20 @@ return {
             PotatoPatchDev_blamperer = {
                 name = "blamperer",
                 text = {
-                    "I also made a mod called",
-                    "{C:chips}The Latro{}, if you want to",
+                    "我还创建了一个名为",
+                    "{C:chips} Latro{}，如果你想要的话",
                     "try that as well.",
-                    "{s:0.8}(Click me to check that out!)"
+                    "{s:0.8}(点击查看！)"
                 }
             },
             PotatoPatchDev_fooping = {
                 name = "Fooping",
                 text = {
                     {
-                        "{C:attention,s:1.3}Hello!{}",
-                        "I am a programmer and artist for this mod!"
+                        "{C:attention,s:1.3} 你好！{}",
+                        "我是这个模块的程序员和艺术家！"
                     },
-                    { "Thank you to the Potato Patch team for the opportunity!" },
+                    { "感谢 Potato Patch 团队给我这个机会！" },
                     { "{C:inactive,s:0.8}Support me on Ko-Fi! https://ko-fi.com/fooping{}" },
                 }
             },
@@ -27,16 +27,16 @@ return {
                 name = "Camostar34",
                 text = {
                     {
-                        "{C:attention,s:1.3}Hiya!! <3{}",
+                        "{C:attention,s:1.3}Hiya!!<3{}",
                         "I contributed some Joker",
-                        "ideas and art!"
+                        "想法和艺术！"
                     },
                     {
-                        "If you want to see more of my stuff,",
-                        "play my mod:",
-                        "{C:attention,s:1.3,E:2}Berries and Honey{}!",
-                        "or check out {C:hearts}Neonflame{} or {C:blue}Starspace{},",
-                        "which are mods I contributed art towards!" },
+                        "如果你想看更多我的东西，",
+                        "播放我的模式：",
+                        "{C:attention,s:1.3,E:2}Berries 和 Honey{}!",
+                        "或者查看 {C:hearts}Neonflame{} 或 {C:blue}Starspace{},",
+                        "这些都是我为之贡献艺术的模组！" },
                     { "{C:inactive,s:0.8}Support me! https://ko-fi.com/camostar34{}" },
                 }
             }
@@ -208,7 +208,7 @@ return {
     misc = {
         dictionary = {
             k_revolve_ex = "旋转！",
-            k_disintegrated_ex = "Disintegrated!",
+            k_disintegrated_ex = "崩溃了！",
             k_worm_riverboat_cosmic = '宇宙'
         },
         achievement_names = {

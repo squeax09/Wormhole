@@ -8,32 +8,32 @@ return {
 						name = "概述",
 						text = {
 							{
-								--[["Use the mouse to {C:attention}drag{} the {C:worm_meow_spacetart}©Spacetart{} on a {C:attention}Joker{}",
+								--[["使用鼠标在 {C:attention}Joker{} 上访问 {C:attention}drag{} 和 {C:worm_meow_spacetart}©Spacetart{}",
 								"to feed it to them.",
-								"If a {C:attention}Joker{} is about to eat the {C:worm_meow_spacetart}©Spacetart{},",
+								"如果 {C:attention}Joker{} 即将吃掉 {C:worm_meow_spacetart}©Spacetart{},",
 								"the cursor will turn into a {C:attention}cat paw{}.",]]
 								"只需将{C:worm_meow_spacetart}©太空挞{}{C:attention}拖拽{}到",
 								"{C:attention}小丑{}上即可喂食！",
 							},
 							{
-								--[["Some {C:attention}Jokers{} might get too full after eating too many {C:worm_meow_spacetart}©Spacetarts{}",
-								"and won't be able to consume any more {C:worm_meow_spacetart}©Spacetarts{}.",
-								"A {C:attention}Joker{} can consume at most {C:attention}#1# {C:worm_meow_spacetart}©Spacetarts{}",
-								"before refusing to eat more under normal circumstances."]]
+								--[["一些 {C:attention}Joker{} 可能会在吃太多 {C:worm_meow_spacetart}©Spacetart{} 后变得太饱。",
+								"无法再摄入更多 {C:worm_meow_spacetart}©Spacetarts{}。",
+								"{C:attention}Joker{} 最多只能吃 {C:attention}#1# {C:worm_meow_spacetart}©Spacetarts{}",
+								"在正常情况下拒绝进食更多。"]]
 								"被喂食的{C:attention}小丑{}会获得{C:attention}太空挞{}最多可堆叠{C:attention}#1#{}层，",
 								"每层箔片都会为小丑提供{C:attention}不同的额外效果{}！",
 							},
 							{
-								--[["If you think a {C:attention}Joker{} has too many foils and it's unevenly distributed,",
-								"simply {C:attention}drag{} the {C:attention}Joker{} onto another one, and the topmost foil will be",
-								"given to the other {C:attention}Joker{}, while also enabling the original {C:attention}Joker{} to",
-								"consume {C:attention}another {C:worm_meow_spacetart}©Spacetart{}."]]
+								--[["如果你认为一个 {C:attention}Joker{} 有太多的箔片，而且它分布不均匀，",
+								"简单地将 {C:attention}Drag{} 和 {C:attention}Joker{} 叠加到另一个上面，最上面的箔片将是",
+								"给予另一个 {C:attention}Joker{}，同时也使原始的 {C:attention}Joker{} 能够",
+								"消费 {C:attention}drag{C:worm_meow_spacetart}©Spacestart{}。"]]
 								"你可以将{C:attention}带太空挞的小丑{}拖拽到",
 								"其他小丑上，以{C:attention}转移{}最上层的{C:attention}太空挞{}！",
 							},
 							{
-								--[["Certain {C:attention}Jokers{} prefer different flavours of {C:worm_meow_spacetart}©Spacetarts{}",
-								"and the effect of the {C:worm_meow_spacetart}©Spacetart{} will be greatly {C:attention}boosted{}."]]
+								--[["某些 {C:attention}Joker{} 更喜欢不同口味的 {C:worm_meow_spacetart}©Spacetarts{}",
+								"{C:worm_meow_spacetart}©Spacetart{} 的效果将大大提升 {C:attention}boosted{}。"]]
 								"{C:attention}小丑{}也有自己的口味偏好，如果它喜欢",
 								"某个{C:worm_meow_spacetart}©太空挞{}的口味，就会{C:attention}强化{}对应的箔片效果！",
 							},
@@ -50,14 +50,14 @@ return {
 				name = "ThunderEdge",
 				text = {
 					{
-						"Programmer",
+						"程序员",
 					},
 					{
-						"Developer of {C:worm_thunderedge_gradient}Multiverse{} and {C:attention}JROK{}",
-						"{s:0.8,C:inactive}(Multiverse update soon, trust)",
-						"Also developed a bunch of",
+						"{C:worm_thunderedge_gradient} Multiverse {} 和 {C:attention}JROK{} 的开发者",
+						"{s:0.8,C:inactive}(Multiverse 即将更新，敬请期待)",
+						"还开发了一堆",
 						"really small content mods",
-						"Co-developer of {C:attention}Blind Expander{}",
+						"{C:attention} 盲扩展器 {} 的共同开发者",
 						"{C:attention}Stocking Stuffer{} participant",
 					},
 				},
@@ -66,13 +66,13 @@ return {
 				name = "Corobo",
 				text = {
 					{
-						"Programmer",
+						"程序员",
 					},
 					{
-						"Developer of {C:mult}Alloy{}, {C:chips}JoJo Mod{},",
-						"and {C:attention}Photon Mod Manager{} (click me)",
-						"{C:inactive}Please use Photon i beg, it even has a website",
-						"{C:attention}Meowww nya nyan meoww meowww{} {C:inactive}(meow){}",
+						"{C:mult}Alloy{}、{C:chips}JoJo Mod{} 的开发者，",
+						"和 {C:attention}Photon Mod Manager{}(点击我)",
+						"{C:inactive} 请使用 Photon，它甚至有一个网站",
+						"{C:attention}Meowwwnya nyan meowwmeowww{}{C:inactive}(meow) {}",
 					},
 				},
 			},
@@ -80,12 +80,12 @@ return {
 				name = "Revo",
 				text = {
 					{
-						"Programmer",
+						"程序员",
 					},
 					{
-						"Developer of {C:worm_revo_gradient}Revo's Vault{}",
+						"{C:worm_revo_gradient}Revo 的 Vault {} 的开发者",
 						"{C:attention}Hot Potato{} participant",
-						"{C:inactive}PLAY MY MOD",
+						"{C:inactive}PLAY 我的模式",
 					},
 				},
 			},
@@ -93,10 +93,10 @@ return {
 				name = "Gappie",
 				text = {
 					{
-						"Artist",
+						"艺术家",
 					},
 					{
-						"Artist of {C:mult}Ortalab{} and {C:chips}CCC{},",
+						"{C:mult}Ortalab{} 和 {C:chips}CCCC{} 的艺术家，",
 						"{C:inactive}i like girls kissing{}",
 					},
 				},
@@ -105,19 +105,19 @@ return {
 				name = "NakuAutumn",
 				text = {
 					{
-						"Programmer, Artist, Composer",
+						"程序员、艺术家、作曲家",
 					},
 					{
-						"Ex-developer of {C:red}Fool's Gambit{} and {C:purple}Medium{}",
-						"{C:attention}Hot Potato{} and {C:red}Stocking {C:green}Stuffer{} participant",
+						"{C:red}Fool 的 Gabit{} 和 {C:purple}Medium{} 的前开发者",
+						"{C:attention}Hot Potato{} 和 {C:red}Stocking {C:green}Stuffer{} 参与者",
 					},
 					{
-						"Click me to open my {C:attention}itch.io{} page!",
+						"点击我打开我的 {C:attention}itch.io{} 页面！",
 					},
 					{
-						"{C:inactive,s:0.7}will i get flamed if i shill non balatro things here",
-						"{C:inactive,s:0.6}..hello? is anyone there? anyone? it's so dark all of a sudden...",
-						"{C:inactive,s:0.5}..where the hell am i??",
+						"{C:inactive,s:0.7}，如果我在这里发布不该发布的东西，我会被点燃的。",
+						"{C:inactive,s:0.6}......喂？有人在吗？有人吗？突然间好黑啊......",
+						"{C:inactive,s:0.5}......我到底在哪里？#",
 					},
 				},
 			},
@@ -125,12 +125,12 @@ return {
 				name = "Incognito",
 				text = {
 					{
-						"Programmer, Artist",
+						"程序员、艺术家",
 					},
 					{
-						"Developer of {C:incognito}Incognito",
-						"Co-Developer of {C:worm_toma_gradient}Hyperfixation{},",
-						"{C:attention}Bad Director{}, and {C:attention}Tangents",
+						"{C:incognito}incognito 的开发者",
+						"{C:worm_toma_gradient}Hyperfixation {} 的共同开发者，",
+						"{C:attention} 坏主管 {} 和 {C:attention}Tangents",
 					},
 					{
 						"Click me to {C:incognito}SWOON",
@@ -141,17 +141,17 @@ return {
 				name = "Jolyne",
 				text = {
 					{
-						"Programmer, Artist, Composer",
+						"程序员、艺术家、作曲家",
 					},
 					{
-						"Lead developer of {C:worm_toma_gradient}Hyperfixation{} and {C:attention}that's it{}",
-						"{s:0.8,C:inactive}(A Hyperfixation rework is in development :3)",
-						"on {s:0.95}a {s:0.9}few {s:0.85}dev {s:0.8}teams {s:0.75}of {s:0.7}various {s:0.65}mods{s:0.6} of {s:0.55}sorts...",
-						"{C:attention}Burnt {}some{C:attention} potatoes{} and {C:green}stuffed{} a few {C:red}stockings{}",
+						"{C:worm_toma_gradient}Hyperfixation {} 和 {C:attention} 的主要开发者，这就是 {}",
+						"{s:0.8,C:inactive}(一项超固定改进工作正在开发中:3)",
+						"关于 {s:0.95}、{s:0.9} 以及 {s:0.85}dev、{s:0.8} 团队的 {s:0.75}、{s:0.7}、各种 {s:0.65}mods、{s:0.6}、{s:0.55}sorts......",
+						"{C:attention} 燃烧 {} 某些 {C:attention} 土豆 {} 和 {C:green} 填充 {} 一些 {C:red} 袜子 {}",
 					},
 					{
-						"{C:inactive,s:0.7}yo phone ringing{}",
-						"{C:inactive,s:0.6}(click me twin){}",
+						"{C:inactive,s:0.7}哟，电话响了{}",
+						"{C:inactive,s:0.6}(点击我的双胞胎) {}",
 					},
 				},
 			},
@@ -207,7 +207,7 @@ return {
 				name = "星辰草莓",
 				text = {
 					"Attached {C:attention}Joker{}",
-					"gives {C:mult}+#1#{} Mult",
+					"给予 {C:mult}+#1#{} 多重",
 				},
 			},
 			c_worm_celestial_cinnamon = {
@@ -374,7 +374,7 @@ return {
 			},
 			worm_meow_nyarlathotep_dollars = {
 				text = {
-					"{C:money}$#1#{}",
+					"{C:money}$#1# 超级{C:money}现金{}",
 				},
 			},
 			worm_meow_nyarlathotep_on_score = {
@@ -448,7 +448,7 @@ return {
 				text = {
 					"{C:attention}喵-拉索提普{}保留",
 					"当前{C:chips}筹码倍率{}的",
-					"{C:attention}#1#%{}",
+					"{C:attention}##{}",
 					"{C:inactive}(当前为{X:chips,C:white}X#2#{C:inactive}筹码)"
 				}
 			},

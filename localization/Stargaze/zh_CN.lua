@@ -7,21 +7,21 @@ return {
 			PotatoPatchDev_FALATRO = {
 				name = "FALATRO",
 				text = {
-					"Basically the only programmer...",
+					"基本上就是唯一的程序员......",
 				}
 			},
 
 			PotatoPatchDev_KaitlynTheStampede = {
 				name = "KaitlynTheStampede",
 				text = {
-					"Blehh, :3",
+					"呃，:3",
 				}
 			},
 
 			PotatoPatchDev_DanielDeisar = {
 				name = "DanielDeisar",
 				text = {
-					"What is Deisar?",
+					"什么是 Deisar#",
 				}
 			},
 		},
@@ -89,7 +89,7 @@ return {
 				name = "无人之地的人们",
 				text = {
 					"每售出{C:attention}#2#{}张小丑，获得{C:money}$#3#{}",
-					"{C:inactive}(#1#/#2#){}",
+					"{C:inactive}(#1#/#2#) {}",
 				},
 			},
 

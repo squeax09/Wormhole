@@ -3,7 +3,7 @@ return {
         PotatoPatch = {
             PotatoPatchDev_Nogardagem = {
                 name = "{E:worm_bap_text_funny}Nogardagem{}",
-                text = { "worm worm worm worm worm", "worm worm worm worm worm", "worm worm worm worm worm", "worm worm worm worm worm", "worm worm worm worm worm" }
+                text = { "蠕虫蠕虫", "蠕虫蠕虫", "蠕虫蠕虫", "蠕虫蠕虫", "蠕虫蠕虫" }
             },
             PotatoPatchDev_NerdyBread42 = {
                 name = "{E:worm_bap_text_funny}NerdyBread42{}",
@@ -43,7 +43,7 @@ return {
                 name = '无',
                 text = {
                     "({V:1}lvl.#1#{})升级",
-                    "{C:attention}#2#",
+                    "{C:attention}##{}#######",
                     "{C:mult}+#3#{}倍率",
                     "{C:chips}+#4#{}筹码",
                 },

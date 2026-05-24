@@ -11,11 +11,11 @@ return {
             },
             PotatoPatchDev_cosmeggo = {
                 name = "cosmeggo",
-                text = {"Formerly Plasma!"}
+                text = {"前等离子体！"}
             },
             PotatoPatchDev_soulware = {
                 name = "soulware",
-                text = {"wunkuss."}
+                text = {"Wunkuss。"}
             },
             PotatoPatchDev_TigerTHawk = {
                 name = "TigerTHawk",
@@ -23,7 +23,7 @@ return {
             },
             PotatoPatchDev_iamarta = {
                 name = "iamarta",
-                text = {"bonjour"}
+                text = {"你好"}
             },
             PotatoPatchDev_M0xes = {
                 name = "M0xes",
@@ -39,7 +39,7 @@ return {
             },
             PotatoPatchDev_Typ0 = {
                 name = "Typ0",
-                text = {"Hit Game Dev Right Here","{s:0.75}Sprite By Inky{}"}
+                text = {"在这里点击游戏开发","{s:0.75}Sprite By Inky{}"}
             },
             PotatoPatchDev_Jewel = {
                 name = "Jewel",
@@ -99,7 +99,7 @@ return {
                     "否则提供",
                     "{C:chips}+#5#{}到{C:chips}+#6#{}筹码"
                 }},
-                
+
             },
             j_worm_euda_jokecolony = {
                 name = "Joke Colony",
@@ -173,7 +173,7 @@ return {
                     "{C:red}摧毁{}一张随机小丑",
                     "并获得{C:money}$5{}{C:attention}出售价值{}"
                 },
-                
+
             },
             j_worm_LittleLight = {
                 name = "命运助手",
@@ -186,7 +186,7 @@ return {
                     "则阻止{C:red}死神{}，然后{C:red,E:2}自毁{}"
                 }},
 
-            }, 
+            },
             j_worm_euda_roadsidepicnic = {
                 name = "路边野餐",
                 text = {
@@ -230,8 +230,8 @@ return {
                 name = {"Big Slurp"},
                 text = {
                     "Randomly {C:attention}destroys{} half",
-                    "of the {C:attention}deck",
-                    "{C:inactive}(Rounded up)"
+                    "关于 {C:attention}deck",
+                    "{C:inactive}(舍入)"
                 }
             },
             c_worm_euda_bounce = {
@@ -336,7 +336,7 @@ return {
 
 
                 k_worm_euda_cometplanet = "彗星",
-      
+
                 k_euda_fate = "命运",
                 b_euda_fate_cards = "命运牌",
                 k_euda_avadon_pack = "阿瓦顿包",

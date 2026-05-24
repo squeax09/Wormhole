@@ -289,13 +289,13 @@ return {
     },
     PotatoPatch = {
       PotatoPatchTeam_JuryRigged = { name = "JuryRigged" },
-      PotatoPatchDev_DowFrin = { name = "DowFrin", text = { { "Listen to {E:2,C:red}Fire4Fun{} by {C:money}Jhariah{} :7", "Credit to {C:chips}Inky{} for this credit art" }, { "I coded the framework + utils for the {E:2,C:worm_jr_satellite}Satellite{} cards,", "the vouchers and most of the jokers", }, { "All things considered this team was pretty amazing to work with!" } } },
-      PotatoPatchDev_Maelmc = { name = "Maelmc", text = { "Play {C:attention}The Binding of Jimbo{} :)" } },
-      PotatoPatchDev_Inky = { name = "Inky", text = { { "Did most of the {C:worm_jr_satellite}satellite{} art and drew some joker art" }, { "(...yes, the {C:chips}Square{} Joker guy. That's him.)" } } },
-      PotatoPatchDev_DoggFly = { name = "Dogg-Fly", text = { "i love yuri, yuri is my life" } },
-      PotatoPatchDev_AbelSketch = { name = "AbelSketch", text = { { "{C:attention}Fun Fact:{} Theres a reason to not share water bottles!" }, { "I got Salmonela from one... 3:" } } },
-      PotatoPatchDev_Blanthos = { name = "Blanthos", text = { "First we Gneep, then we Gnarp. Lets {C:green}Gneep Gnarp{}." } },
-      PotatoPatchDev_NinjaBanana = { name = "NinjaBanana", text = { "GUYS I'M NOT THE IMPOSTOR PLEASE DON'T EJECT ME" } },
+      PotatoPatchDev_DowFrin = { name = "DowFrin", text = { { "Listen to {E:2,C:red}Fire4Fun{} by {C:money}Jhariah{} :7", "感谢 {C:chips}inky{} 提供的这项技术支持。" }, { "我为 {E:2,C:worm_jr_satellite}Satellite{} 卡编写了框架 + 实用程序，", "the vouchers and most of the jokers", }, { "考虑到这个团队的一切，与他们合作真是太棒了！" } } },
+      PotatoPatchDev_Maelmc = { name = "Maelmc", text = { "玩 {C:attention} 绑定 Jimbo{} :)" } },
+      PotatoPatchDev_Inky = { name = "Inky", text = { { "完成了大部分 {C:worm_jr_satellite} 卫星 {} 艺术，并画了一些 Joker 艺术" }, { "(......没错，就是那个 {C:chips}Square{} 小丑。就是他。)" } } },
+      PotatoPatchDev_DoggFly = { name = "Dogg-Fly", text = { "我爱尤里，尤里是我的生命" } },
+      PotatoPatchDev_AbelSketch = { name = "AbelSketch", text = { { "{C:attention}Fun 事实:{} 不分享水瓶是有原因的！" }, { "I got Salmonela from one... 3:" } } },
+      PotatoPatchDev_Blanthos = { name = "Blanthos", text = { "先是我们 Gneep，然后是我们 Gnarp。让 {C:green}Gneep Gnarp{}。" } },
+      PotatoPatchDev_NinjaBanana = { name = "NinjaBanana", text = { "伙计们，我不是冒牌货，求求你们别赶我走" } },
     }
   },
   misc = {

@@ -310,7 +310,7 @@ local ORIGINAL_CONSTELLATIONS = copy_table(CONSTELLATIONS)
 
 
 for key, obj in pairs(CONSTELLATIONS) do
-	local add = "{s:0.7,E:2}" .. constellation_text[string.sub(key, -2)]
+	local add = "{s:0.7,E:2}QMCR{}" .. constellation_text[string.sub(key, -2)]
 	obj.name = {obj.name, add}
 end
 
@@ -466,18 +466,18 @@ return {
 				name = "Foo54",
 				text = {
 					{
-						"This is the first event",
-						"I've participiated in!"
+						"这是第一个活动",
+						"我参与其中了！"
 					},
 					{
 						"I named most of these cards",
-						"and did a lot of the initial setup,",
-						"utility functions, and a little bit of artwork.",
-						"I also composed our booster pack music:",
-						"{C:red,E:1}Distant Stars (ft. Kasane Teto & Adachi Rei)"
+						"并做了许多初始设置，",
+						"实用功能，还有一些艺术品。",
+						"我还创作了我们的助推背景音乐：",
+						"{C:red,E:1}《遥远的星星》(Ft. Kasana Teto & Adachi Rei)"
 					},
 					{
-						"Shoutout to our artists they are cooking"
+						"向我们的艺术家们呼吁，他们正在烹饪"
 					}
 				}
 			},
@@ -497,7 +497,7 @@ return {
 			PotatoPatchDev_Breuhh = {
 				name = "Breuh",
 				text = {
-					"Play my hit",
+					"放我的热门歌曲",
 					"mod {E:1,C:common}Oscillate"
 				}
 			},
@@ -505,25 +505,25 @@ return {
 				name = "Amphiapple",
 				text = {
 					{
-						"im not going to add to the mountain of lies anymore.",
-						"most things you know about me are fake.",
-						"ive faked most of my runs from both this and other acc",
-						"(both nk map runs and maplist runs).",
-						"i usually spend an hour-2 hours (and lie about the times it take me)",
-						"on these runs by setting tower speed at 1.1x",
-						"(rate changer mod)(some runs being more and some runs less)",
-						"which makes it virtually indistinguishable for the human eye but noticeable when replayed.",
-						'I did it to be able to just do multiple "hard" runs per week',
-						"so people would realize im one of the best.",
-						"my hardest legit run is axis of wizards on quad which",
-						"took me about 7 hours over the course of 2 days back in v34 where",
-						"mod helper didnt update for an entire month and i had to do something.",
-						"i dont really find the game fun and have a life and strict parents to deal with",
-						"(i know its not a good excuse to cheat).",
-						"I already had plans to quit the game after v44 cause i already had lost interest.",
-						"sorry to all the people whom ive disappointed.",
-						"im leaving all bloons related servers and dont dm me i wont respond.",
-						"-Slender, 2024"
+						"我不会再往谎言的山上添砖加瓦了。",
+						"你所知道的关于我的大多数事情都是假的。",
+						"我伪造了大多数来自这个和其他 Acc 的运行",
+						"(无论是 nk 地图跑步还是 maplist 跑步)。",
+						"我通常会花一到两个小时 (并且对花费的时间撒谎)",
+						"在这些跑步中，将塔速设置为 1.1 倍",
+						"(速率变化模式)(有些跑步次数多，有些跑步次数少)",
+						"这使得它在人眼中几乎无法区分，但在回放时却能引起注意。",
+						'我这样做只是为了每周能够进行多次 “高难度” 训练。',
+						"这样人们就会意识到它是最好的之一。",
+						"我最艰难的合法运行是四边形上的巫师轴线。",
+						"在 v34 的两天里花了我大约 7 个小时。",
+						"调制解调器助手整整一个月没有更新，我必须做点什么。",
+						"我并不真的觉得这个游戏有趣，而且我还有生活和严格的父母要应付。",
+						"(我知道这不是作弊的好借口。)",
+						"我已经打算在 v44 之后退出游戏，因为我已经失去了兴趣。",
+						"对所有让我失望的人感到抱歉。",
+						"我要离开所有与布隆相关的服务器，不要告诉我我不会回复。",
+						"——Slinder,2024 年"
 					},
 				}
 			},
@@ -532,11 +532,11 @@ return {
 				text = {
 					{
 						"One of the artists cooking",
-						"art for the mod."
+						"为 Mod 创作的艺术。"
 					},
 					{
 						"Could you have guessed that",
-						"I like hollow knight?"
+						"我喜欢空心骑士吗？"
 					},
 					{
 						"{C:tarot}Nomai.{}"
@@ -546,8 +546,8 @@ return {
 			PotatoPatchDev_Quinn = {
 				name = "Quinn",
 				text = {
-					"I didn't contribute much I was on vacation",
-					"Hope you like the art tho {C:hearts}<3{}"
+					"我没做太多贡献，因为我在度假",
+					"希望你喜欢这幅画，尽管 {C:hearts}<3{}"
 				}
 			},
 		},

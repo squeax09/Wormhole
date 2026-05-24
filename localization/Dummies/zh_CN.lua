@@ -5,43 +5,43 @@ return {    -- yo it's GHOSTSALT here look at me TYPING before i SUBMIT THIS THI
             PotatoPatchDev_ghostsalt = {
                 name = 'GhostSalt',
                 text = {
-                    { "Hiya! :3" },
-                    { "Made: Moony, Gleebleglorp, Crystal Sphere", "and Star-Studded Deck" },
-                    { "Additional art: Garlic Bread that", "went to Space, Tim Curry,", "Mouthwash and TOGA's card below" },
-                    { "I also animated some of", "the things we made ^u^" },
-                    { "Have fun with the mod!! :D" }
+                    { "嗨呀！:3" },
+                    { "制作:Moony、Gleebleglorp、CrystalSphere", "和星条旗装甲" },
+                    { "附加艺术：蒜味面包", "去了太空，蒂姆·库里，", "下面是漱口水和 TOGA 的卡片" },
+                    { "我还为一些", "我们做的东西^u^" },
+                    { "和 mod 玩得开心！!:D" }
                 }
             },
             PotatoPatchDev_vissa = {
                 name = 'vissa',
                 text = {
-                    { "Made {X:green,C:white}Aliens{} that {C:red}eat{} stuff.", "Also did half of the {C:attention}Test Flight{} blind", "and some art."},
+                    { "制作了 {X:green,C:white}Aliens{} 那些 {C:red}eat{} 的东西。", "还有一半的 {C:attention} 测试飞行 {}", "还有一些艺术。"},
                     { "Please tell me other", "teams added {X:chips,C:white}Fish{} jokers...", "{C:inactive,s:0.9}my carnivore is gonna starve" },
-                    { "{C:red}Eats{} cards while", "you're not looking.", "{C:inactive,s:0.9}glorpalicious"}
+                    { "{C:red}Eats{} cards while", "你没在看。", "{C:inactive,s:0.9}glorpalicious"}
                 }
             },
             PotatoPatchDev_bagels = {
                 name = 'BakersDozenBagels',
-                text = { "gwah" }
+                text = { "哇！" }
             },
             PotatoPatchDev_theonegoofali = {
                 name = 'TheOneGoofAli',
                 text = {
-					{ "Additionally known under the {C:attention}TOGA{} acronym.", "Very much interested in (old) computers.", "{C:inactive}And older versions of Windows too." },
-					{ "Previously modded {C:attention}Sonic Robo Blast 2{},", "{C:attention}Sonic Robo Blast 2 Kart{} and {C:attention}Dr. Robotnik's Ring Racers{}." },
-					{ "Responsible for appearance of {C:edition}the SMODS cat{} on loading screen since", "{C:attention}BETA-1201a{}, as well as the {C:legendary}custom{} loading screen for this mod.", "{C:inactive}Originally experimented for TOGA's Stuff{}", "{C:inactive,s:0.9}(https://github.com/TheOneGoofAli/TOGAPackBalatro){}" }
+					{ "也称为 {C:attention}TOGA{}。", "对 (旧) 电脑非常感兴趣。", "{C:inactive}And older versions of Windows too." },
+					{ "先前修改过的 {C:attention}Sonic Robo Blast 2{},", "{C:attention}Sonic Robo Blast 2 Cart{} 和 {C:attention}Dr. Robotnik’s Ring Racers{}。" },
+					{ "负责自从 SMODs cat{} 在加载屏幕上出现以来 {C:edition}", "{C:attention}BETA-1201a{}，以及该模块的 {C:legendary}custom{} 加载屏幕。", "{C:inactive} 最初是为 TOGA 的 Stuff{} 进行实验的", "{C:inactive,s:0.9}(https://github.com/TheOneGoofAli/TOGAPackBalatro){}" }
 				}
             },
             PotatoPatchDev_baltdev = {
                 name = 'baltdev',
-                text = { "hi im a slugcat" }
+                text = { "我是一只懒猫" }
             },
             PotatoPatchDev_flowire = {
                 name = 'Flowire',
                 text = {
-                    { "Awwooo!~ :3" },
-                    { "I hope your day", "is as wonderful", "as you are! {C:red}<3" },
-                    { "This {C:attention}critter{}", "tastes like a", "{C:red}Strawberry{}!" },
+                    { "嗷呜！~:3" },
+                    { "祝你今天愉快", "is as wonderful", "就像你一样！{C:red}<3" },
+                    { "这个{C:attention}小家伙{}", "吃起来像", "{C:red}草莓{}！" },
                 }
             },
         },
@@ -250,7 +250,7 @@ return {    -- yo it's GHOSTSALT here look at me TYPING before i SUBMIT THIS THI
                 name = "氧气升级",
                 text = {
                     "{C:inactive}最大氧气值:", "{C:spectral}#1#{} -> {C:spectral}#2#{}",
-                    "{s:0.5} ",
+                    "{s:0.5}",
                     "{C:inactive}恢复时间:", "{C:attention}#3#{} -> {C:attention}#4#{}",
                 }
             },
@@ -272,10 +272,10 @@ return {    -- yo it's GHOSTSALT here look at me TYPING before i SUBMIT THIS THI
         },
         dictionary = {
             k_worm_dum_worm_free = "免费补充包!",
-            k_worm_dum_worm_eat = "Gulp!",
+            k_worm_dum_worm_eat = "咕噜！",
             k_worm_dum_dummy_blind_saved = "试飞失败!",
-            k_worm_dum_greg_eat = "Nom!",
-            k_worm_dum_carnivore_eat = "Chomp!",
+            k_worm_dum_greg_eat = "名字！",
+            k_worm_dum_carnivore_eat = "咔嚓！",
             worm_moony_menu_tooltip = {
                 "从下列选择一种",
                 "牌型进行升级"
@@ -305,7 +305,7 @@ return {    -- yo it's GHOSTSALT here look at me TYPING before i SUBMIT THIS THI
             ch_c_worm_dum_all_star_champion_1 = { "{C:attention,E:2}三进制{C:planet}星球{}牌", },
             ch_c_worm_dum_all_star_champion_2 = { "{C:attention}+4{}底注", },
             ch_c_worm_dum_gold_stake = { "应用{C:money}金注{}难度" },
-            ch_c_worm_dum_space = { "{s:0.5} ", },
+            ch_c_worm_dum_space = { "{s:0.5}", },
         },
         quips = {
             worm_dummies_win_1 = { "{s:2.0,C:green}胜" },
@@ -318,10 +318,10 @@ return {    -- yo it's GHOSTSALT here look at me TYPING before i SUBMIT THIS THI
             worm_dummies_win_8 = { "{s:2.0,C:green}+2" },
             worm_dummies_win_9 = { "有这种操作，", "我终于明白", "“{E:2}神之一手{}”是怎么来的了！" },
             worm_dummies_win_10 = { "{s:2.0}:3" },
-            worm_dummies_win_11 = { "{s:2.0} 笑死", "{s:2.0}  |Î| ", "{s:1.0}  绝了", "{s:2.0}电影级" },
+            worm_dummies_win_11 = { "{s:2.0} 笑死", "{s:2.0} | I |", "{s:1.0}  绝了", "{s:2.0}电影级" },
             worm_dummies_loss_1 = { "{s:2.0,C:red}负" },
             worm_dummies_loss_2 = { "嗯，你该", "再加把劲，", "你这{u:red}水平{}… {E:2}哎哟{}！" },
-            worm_dummies_loss_3 = { "   我觉得你在这儿搜", '    “{C:red}退出{}” 更容易成功！', "                   {C:inactive}|", " ", "                   {C:inactive}|", " ", "                   {C:inactive}|", " ", "                   {C:inactive}|", "                   {C:inactive} - - - - - - - - >" },
+            worm_dummies_loss_3 = { "   我觉得你在这儿搜", '    “{C:red}退出{}” 更容易成功！', "{C:inactive} |", " ", "{C:inactive} |", " ", "{C:inactive} |", " ", "{C:inactive} |", "{C:inactive}————————>" },
             worm_dummies_loss_4 = { "我本想帮你，", "但现在实在", "不太方便。" },
             worm_dummies_loss_5 = { "啊，可恶！" },
             worm_dummies_loss_6 = { "{E:2}别瞎闹了。" },
@@ -332,7 +332,7 @@ return {    -- yo it's GHOSTSALT here look at me TYPING before i SUBMIT THIS THI
             worm_dummies_loss_11 = { "时间到，", "{E:2}伙计{}！" },
             worm_dummies_flowire_1 = { "错误" },
             worm_dummies_flowire_2 = { "空值" },
-            worm_dummies_flowire_3 = { "{s:2.5} " },
+            worm_dummies_flowire_3 = { "{s:2.5}" },
             worm_dummies_timcurry_win_1 = { "又一场胜利，指挥官……" },
             worm_dummies_timcurry_win_2 = { "{C:attention,s:1.5}好！{}", "干得漂亮。" },
             worm_dummies_timcurry_win_3 = { "出色的工作，指挥官……" },

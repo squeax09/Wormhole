@@ -28,7 +28,7 @@ return {
 				text = {
 					{
 						"{X:mult,C:white}X#1#{}倍率",
-						"{C:attention}#2#{} / {V:1}#3#{}",
+						"{C:attention} #2# {}/{V:1} #3# {}",
 					},
 					{
 						"同时存在于所有地方",
@@ -153,7 +153,7 @@ return {
 			},
 			j_worm_jtem2_alien_alien = {
 				name = {
-					"{f:5}エイリアンエイリアン{}",
+					"{f:5} 外星人 外星人 {}",
 					"外星人外星人",
 				},
 				text = {
@@ -255,7 +255,7 @@ return {
 			worm_jtem2_solar_system_effect_c_jupiter = {
 				name = "木星能力",
 				text = {
-					"{X:mult,C:white}X#1#{}",
+					"{X:mult,C:white} X #1# {}",
 				},
 			},
 			worm_jtem2_solar_system_effect_c_saturn = {
@@ -267,7 +267,7 @@ return {
 			worm_jtem2_solar_system_effect_c_uranus = {
 				name = "天王星能力",
 				text = {
-					"{X:chips,C:white}X#1#{}",
+					"{X:chips,C:white} X #1# {}",
 				},
 			},
 			worm_jtem2_solar_system_effect_c_neptune = {
@@ -292,7 +292,7 @@ return {
 				name = "阋神星能力",
 				text = {
 					"{C:attention}#1#{}视为",
-					"{C:attention}#2#{}",
+					"{C:attention} #2# {} {C:attention} X #2# {} Woof {C:attention}",
 					"如果卡牌花色相同，",
 					"则视为{C:attention}#3#{}",
 				},
@@ -331,26 +331,26 @@ return {
 				name = "Aikoyori",
 				text = {
 					{
-						"{s:3.2,E:worm_jtem2_rainbow_wiggle}Hello!{}",
-						"This is {E:worm_jtem2_rainbow_wiggle,C:white}Aikoyori{} from {E:worm_jtem2_rainbow_wiggle,C:white}Shenanigans",
+						"{s:3.2,E:worm_jtem2_rainbow_wiggle}您好！ {}",
+						"这是来自{E:worm_jtem2_rainbow_wiggle,C:white} Shenanigans的{E:worm_jtem2_rainbow_wiggle,C:white} Aikoyori {}",
 						" ",
-						"Back at it with {C:worm_jtem2_teamcolor}Jtem{C:worm_jtem2_teamcolor,E:worm_jtem2_exponent}2{}after {C:attention,E:worm_jtem2_snaking}Hot Potato{} was not enough",
-						"but I think we cooked. In what essentially is {C:attention,E:worm_jtem2_snaking}Hot Potato{C:attention,E:worm_jtem2_exponent}2{}",
-						"I reduced my role as programmer and worked on",
-						"{C:inactive}(^ this was a lie btw i did more than just art last minute)",
-						"the {C:attention}these credits sprites{} you're looking at!",
-						"That's all from me! See you next time!",
+						"回到{C:worm_jtem2_teamcolor} JTEM {C:worm_jtem2_teamcolor,E:worm_jtem2_exponent} 2 {}之后， {C:attention,E:worm_jtem2_snaking}热土豆{}还不够",
+						"但我想我们煮熟了本质上是{C:attention,E:worm_jtem2_snaking}土豆{C:attention,E:worm_jtem2_exponent} 2 {}",
+						"我减少了自己作为程序员的角色，",
+						"{C:inactive} （ ^这是一个谎言，顺便说一句，我做的不仅仅是最后一分钟的艺术）",
+						"{C:attention}你正在看的这些制作人员名单精灵{}！",
+						"这就是我的一切！下次见！",
 						" ",
-						"{s:1.5,E:worm_jtem2_rainbow_wiggle}OH AND PLAY MY MOD AIKOYORI'S SHENANIGANS{}",
-						"My favorite umamusume is {C:white,E:1}Kitasan Black{}",
-						"{C:inactive}(was told to add one)",
+						"{s:1.5,E:worm_jtem2_rainbow_wiggle}OH 和播放我的 Mod Aikoyori 的《神秘之旅》{}",
+						"我最喜欢的 umamusum 是 {C:white,E:1}Kitasan Black {}",
+						"{C:inactive}(被要求添加一个)",
 						" ",
 						"postmortem i just added like a joker ",
-						"and 3 enhancements last minute go figure",
+						"最后一分钟还有 3 个改进，数字",
 					},
 					{
-						"A word from our sponsor, {C:attention}my dog:",
-						"woof",
+						"来自我们的赞助商 {C:attention}my 的一句话：",
+						"Woof",
 						"- my dog",
 					},
 				},
@@ -359,18 +359,18 @@ return {
 				name = "SleepyG11",
 				text = {
 					{
-						"As usual, did some coding.",
-						"I'm proud of {C:attention}Artificial Solar System{} tho.",
-						"Watch out for this rock, it's a bit {C:purple}sus{}",
+						"像往常一样，做了一些编码。",
+						"我为 {C:attention} 人工太阳系 {} 感到自豪。",
+						"小心这块石头，它有点像 {C:purple}sus{}",
 						" ",
-						"Cannot wait for {C:chips}f***ing{} event",
+						"迫不及待地等待 {C:chips}f***ing{} 事件",
 						" ",
 						"My favorite umamusume is {C:white,E:1}Oguri Cap{}",
 					},
 					{
-						"You already using or will use {C:chips}Handy{} anyway",
-						"{C:inactive}(You have no choice){}",
-						"So no advertizing here",
+						"你已经在使用或将要使用 {C:chips}Handy{}",
+						"{C:inactive}(你别无选择) {}",
+						"所以这里没有广告",
 					},
 				},
 			},
@@ -378,20 +378,20 @@ return {
 				name = "Haya",
 				text = {
 					{
-						"hi i am {s:2,C:edition}Paya{} from {s:2,C:dark_edition}Haya{}",
-						"{s:0.5,C:inactive}Im suffocating please help{}",
-						"{C:worm_jtem2_teamcolor}Jtem{C:worm_jtem2_teamcolor,E:worm_jtem2_exponent}2{} back at it again with the jeans",
+						"嗨，我是 {s:2,C:edition}Paya{}，来自 {s:2,C:dark_edition}Haya{}",
+						"{s:0.5,C:inactive}IM 快要窒息了，请帮帮我 {}",
+						"{C:worm_jtem2_teamcolor}JTem{C:worm_jtem2_teamcolor,E:worm_jtem2_exponent}2{} 又回来了，穿着牛仔裤",
 						"",
 						"I mostly took a backseat from coding",
-						"due to time constraints yet I still managed",
-						"to make something really {C:edition,s:1.5,E:worm_jtem2_snaking}funny{} haha 67",
+						"由于时间限制，我还是勉强完成了",
+						"要做点真正的东西 {C:edition,s:1.5,E:worm_jtem2_snaking}Funny{} 哈哈 67",
 						"",
-						"My favorite umamusume is {C:white,E:1}Manhattan Cafe{}",
+						"我最喜欢的 umamusume 是 {C:white,E:1} 曼哈顿咖啡馆 {}",
 					},
 					{
-						"{s:2.3}Play {s:2.3,E:worm_jtem2_rainbow_wiggle}juuyon{} pls",
+						"{s:2.3} 播放 {s:2.3,E:worm_jtem2_rainbow_wiggle}juyun {} pls",
 						"{s:0.8,C:inactive}https://github.com/hayaunderscore/juu-yon{}",
-						"{s:0.8}I couldn't implement Taiko in Balala in time, sorry",
+						"{s:0.8}I 无法及时在巴拉拉实现 Taiko，抱歉",
 					},
 				},
 			},
@@ -399,16 +399,16 @@ return {
 				name = "lexi",
 				text = {
 					{
-						"wannabe music artist, dev for jeans alchemy",
-						"{s:0.7}I'd rather be topped by 10 {C:worm_jtem2_lexi,s:0.7,E:1}lesbians{s:0.7} than top 10 {C:worm_jtem2_lexi,s:0.7,E:1}lesbians",
-						"{C:worm_jtem2_lexi}triple6lexi.carrd.co{} <- my links and bio",
+						"想要成为音乐艺术家，牛仔裤炼金术开发者",
+						"{s:0.7}I 宁愿被 10 个 {C:worm_jtem2_lexi,s:0.7,E:1}lesbians{s:0.7} 超越，也不愿被前 10 个 {C:worm_jtem2_lexi,s:0.7,E:1}lesbians 超越",
+						"{C:worm_jtem2_lexi}triple6lexi.card.co{} <——我的链接和生物",
 						"{s:0.8}youtu.be/O8uXhKOB3j8",
 					},
 					{
-						'{s:0.8}"I had tried my hardest to give you what you wanted.',
-						'{s:0.8}If you had just been honest, too goddamn cold-hearted."',
-						"{s:0.8}charlie! - Cold Hearted",
-						"{s:0.65}it's a good song",
+						'{s:0.8}“我已经尽最大努力给你你想要的。',
+						'{s:0.8}，如果你刚才说的是实话，那就太他妈冷酷无情了。“',
+						"{s:0.8}Charlie!——《冷酷的心》",
+						"{s:0.65}it 是首好歌",
 					},
 				},
 			},
@@ -417,8 +417,8 @@ return {
 				text = {
 					{
 						"Haya forced me to join this jam",
-						"but I owe a lot of money to some very bad people",
-						"so I didn't really do much",
+						"但我欠了一些非常坏的人很多钱",
+						"所以我真的没做什么",
 					},
 				},
 			},
@@ -426,12 +426,12 @@ return {
 				name = "missingnumber",
 				text = {
 					{
-						'"Remember to drive responsibly, and definitely',
-						"don't drive on the highway at 190 miles per hour!\"",
+						'记住要负责任地开车，绝对要',
+						"不要在高速公路上以每小时 190 英里的速度开车！",
 						"{s:0.8}- Yi Xi totally said this",
 						"",
-						"artist for {C:red,E:worm_jtem2_shrivel}Finity{} and {C:purple,E:worm_jtem2_snaking}0 ERROR",
-						"{}listen to my music pls",
+						"{C:red,E:worm_jtem2_shrivel}Finity{} 和 {C:purple,E:worm_jtem2_snaking}0 的艺术家错误",
+						"{} 听我的音乐 PLS",
 					},
 				},
 			},

@@ -5,37 +5,37 @@ return {
             PotatoPatchDev_FireIce = {
                 name = "FireIce",
                 text = {
-                        { 
-                            "the power of {s:1.5,C:dark_edition,E:1}12 gay cats{}",
-                            "may or may not have been used" 
+                        {
+                            "{s:1.5,C:dark_edition,E:1}12 同性恋猫 {} 的力量",
+                            "may or may not have been used"
                         }
                 },
             },
             PotatoPatchDev_Gud = {
                 name = "Gup",
                 text = {
-                        { 
+                        {
                             "meowmeowmeowmeowmeowmeowmeowmeow",
                             "meowmeowmeowmeowmeowmeowmeowmeow",
                             "meowmeowmeowmeowmeowmeowmeowmeow",
                             "meowmeowmeowmeowmeowmeowmeowmeow"
-                            
+
                         }
             },
         },
             PotatoPatchDev_Iso = {
                 name = "Isotypical",
                 text = {
-                        { 
-                            "{C:inactive,E:1}Developer has not left a quote..." 
+                        {
+                            "{C:inactive,E:1} 开发者没有留下任何引用......"
                         }
             },
             },
             PotatoPatchDev_FirstTry = {
                 name = "FirstTry",
                 text = {
-                        { 
-                            "Tried too hard, even on vacation" 
+                        {
+                            "太努力了，即使是在度假期间"
                         }
             },
             },
@@ -54,7 +54,7 @@ return {
                 {"赋予当前",
                 "{C:chips}筹码{}和{C:mult}倍率{}",
                 "与{C:attention}顺子{}相同"},
-                {"{C:white,X:chips,s:1.5}#3##1#{}{C:red,s:1.5} X {C:white,X:mult,s:1.5}#2##3#{}"}
+                {"{C:white,X:chips,s:1.5}#3##1#{}QZ{C:red,s:1.5} X {C:white,X:mult,s:1.5}QZ#2#QZ#3#QZ{}"}
                 }
             },
             j_worm_fraudthird = {
@@ -71,7 +71,7 @@ return {
             text = {
                 "每{C:attention}#1#{}回合升级你",
                 "最常打出的牌型",
-                "{C:inactive}(#2#/#1#, #3#)",
+                "{C:inactive}(#2#/#1#,#3#) {}",
                 }
             },
             j_worm_tekit = {
@@ -113,7 +113,7 @@ return {
                 }
             }
         }
-        
+
     },
     misc = {
         labels = {

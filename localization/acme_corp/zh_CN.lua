@@ -234,7 +234,7 @@ return {
 		        text = {
 			        '{C:attention}盲注{}开始时抽{C:attention}#1#{}张牌',
 			        '首次抽牌后将{C:blue}手牌上限{}变为{C:attention}0{}'
-		        },	
+		        },
 	        },
             j_worm_acme_gas_station = {
                 name = '星际加油站',
@@ -308,18 +308,18 @@ return {
                 name = "RadiationV2",
                 text = {
                     {
-                        "This was my {C:attention}first contribution{} to a",
-                        "a full public Balatro content mod!",
-                        "Thanks to the {C:attention}ACME{} team",
-                        "for putting up with the barrage of {C:mult}yaps",
+                        "这是我对 {C:attention} 的首次贡献 {}",
+                        "一个完全公开的 Balatro 内容模块！",
+                        "感谢 {C:attention}ACME{} 团队",
+                        "感谢你们忍受 {C:mult}yaps 的狂轰滥炸。",
                         "and {C:mult}reworks{} I brought upon.",
-                        "I think we made something special."
+                        "我觉得我们做出了一些特别的东西。"
                     },
                     {
-                        "To see more of my work, you can go",
-                        "look at {C:attention}Collab++{}, my simple card suit mod,",
-                        "or look out for {C:green}House Rules{}, whenever that comes out!",
-                        "{C:inactive}Also check out my GD stuff oc, iykyk :)"
+                        "要查看更多我的作品，你可以看看 {C:attention}Collab++{}，",
+                        "看看 {C:attention}Collab++{}，我的简单卡套模式，",
+                        "或者随时查看 {C:green}House Rules{}!",
+                        "{C:inactive} 也来看看我的 GD 内容吧，哎呀:)"
                     },
                 },
             },
@@ -327,19 +327,19 @@ return {
                 name = "FlameThrowerFIM",
                 text = {
                     {
-                        "After my first experience with community mod jam",
-                        "projects through {C:chips}Cold Beans{}, I was excited to sign up",
-                        "for the mod jam that would become {C:attention}Wormhole{}!",
+                        "在我第一次体验社区 mod jam 之后",
+                        "通过 {C:chips}Cold Beans{} 进行项目，我兴奋地注册了",
+                        "为了那个即将成为 {C:attention}Wormhole{} 的 Mod Jam 项目！",
                     },
                     {
-                        "I'm the artist behind all the Jokers of this team",
-                        "and the Skip Tag, and I'm very proud of how much",
-                        "we managed to get done as a team!",
-                        "Thank you all for such a great experience! :D"
+                        "我是这个团队所有小丑背后的艺术家",
+                        "还有跳跃标签，我非常自豪能够",
+                        "我们作为一个团队成功完成了任务！",
+                        "感谢大家给我们带来如此美好的体验！:D"
                     },
                     {
-                        "If you're interested in more of my work,",
-                        "check out my mod {C:green}MmmmmJokers{}!"
+                        "如果你对我的更多工作感兴趣，",
+                        "查看我的模块 {C:green}mmmmJokers{}!"
                     },
                 },
             },
@@ -347,12 +347,12 @@ return {
                 name = "Opal",
                 text = {
                     {
-                        "This has been quite a fun event!",
+                        "这真是一个非常有趣的活动！",
                         "I feel {C:attention}incredibly lucky{} to have had",
                         "such a fantastic team once again."
                     },
                     {
-                        "{C:inactive,s:0.8}And I'm no shill, but I hear",
+                        "{C:inactive,s:0.8} 我不是个胆小鬼，但我听说",
                         "{E:1,s:0.8,C:tarot}Opalstuff{C:inactive,s:0.8} has some cool stuff :3"
                     },
                 },
@@ -361,9 +361,9 @@ return {
                 name = "Youh",
                 text = {
                     {
-                        "Thank you to all my wonderful teammates and",
-                        "to {C:dark_edition}you{} for playing. It's been such an honor to",
-                        "work with {C:attention}ACME{} and code their silly jokers. {E:1,C:chips}Enjoy!{}"
+                        "感谢我所有出色的队友和",
+                        "来到 {C:dark_edition}you{} 参加比赛，这是我莫大的荣幸。",
+                        "与 {C:attention}ACME{} 合作，编写他们那些愚蠢的笑话。{E:1,C:chips}enjoy! {}"
                     },
                 },
             }
@@ -371,16 +371,16 @@ return {
             PotatoPatchDev_Basil_Squared = {
                 name = "Basil_Squared",
                 text = {
-                    { "This isn't my first rodeo, in fact I was invited to {C:attention}Hot Potato{}!",
-                        "{C:inactive,S:0.8}(Go team :)!)",
-                        "However, this is the first one where I {C:attention}truly{} gave it my all!",
-                        "I hope you enjoy the various {C:red}evil{} effects ive prepared for some of our portion.",
-                        "and I am {C:attention} more than happy{} to work with such an amazing team at {C:attention}ACME{}"
+                    { "这不是我第一次参加牛仔竞技，事实上，我曾受邀参加过 {C:attention}Hot Potato{}!",
+                        "{C:inactive,S:0.8}(前进团队:!)",
+                        "然而，这是我 {C:attention}Truely {} 第一次全力以赴！",
+                        "希望你喜欢我为我们部分内容准备的各种 {C:red}evil{} 效果。",
+                        "我非常高兴能在 {C:attention}ACME{} 与如此出色的团队合作。"
                     },
                     {
-                        "{C:inactive,S:0.8}Also, if we're shilling then",
-                        "{C:dark_edition}Charcuterie{} is worth checking out! :)))))",
-                        "Love you guys , and hooray for {C:tarot}Wormhole{}!"
+                        "{C:inactive,S:0.8} 另外，如果我们要付先令，那么",
+                        "{C:dark_edition}Charcuterie{} 值得一看！:)))",
+                        "爱你们，为 {C:tarot}Wormhole{} 欢呼！"
                     }
                 },
             }
@@ -391,7 +391,7 @@ return {
             k_acme_gadget = '装置',
             b_acme_gadget_cards = '装置牌',
             k_aces = 'Aces',
-            k_ace = 'Ace',
+            k_ace = '王牌',
             k_boosters = '补充包',
             k_booster = '补充包',
             k_cards = '卡牌',
@@ -402,13 +402,13 @@ return {
             k_remaining = '剩余',
             k_worm_gadget_pack = '装置包',
 
-            k_acme_test_dummy_1 = 'Crash!',
-            k_acme_test_dummy_2 = 'Bang!',
-            k_acme_test_dummy_3 = 'Wallop!',
-            k_acme_test_dummy_4 = 'Hello.',
+            k_acme_test_dummy_1 = '崩溃了！',
+            k_acme_test_dummy_2 = '砰！',
+            k_acme_test_dummy_3 = '啪！',
+            k_acme_test_dummy_4 = '你好。',
 
-            k_acme_bombs_complete = 'KABOOM!',
-            k_acme_bombs_fail = 'Dud!',
+            k_acme_bombs_complete = '咔咚！',
+            k_acme_bombs_fail = '达德！',
         },
         labels = {
             acme_gadget = '装置',

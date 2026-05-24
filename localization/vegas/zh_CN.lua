@@ -193,5 +193,10 @@ return {
                 }
             }
         }
+    },
+    misc = {
+        dictionary = {
+            k_vegas_bazinga = "巴津加！",
+        },
     }
 }
