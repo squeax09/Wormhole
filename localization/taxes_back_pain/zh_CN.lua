@@ -35,15 +35,15 @@ local other_loc_table = {
                 name = 'Eremel',
                 text = {
                     {
-                        'Look at this {C:worm_eremel}silly UI{} I made (:',
-                        '{C:inactive,s:0.6}I did some backend stuff too'
+                        '看看我做的这个 {C:worm_eremel} 傻乎乎的 UI{}(:',
+                        '{C:inactive,s:0.6} 也做了一些后端工作。'
                     },
                     {
-                        'I help make {C:attention,E:2}SMODS{}!'
+                        '我帮忙制作了 {C:attention,E:2}SMODS{}!'
                     },
                     {
-                        'I also worked on {C:green,E:2}Galdur{},',
-                        '{C:blue,E:2}Malverk{}, {C:red,E:2}Ortalab{} and {C:gold,E:2}Monarchy{}'
+                        '我还参与了 {C:green,E:2}Galdur{} 的制作。',
+                        '{C:blue,E:2}Malverk{}、{C:red,E:2}Ortalab{} 和 {C:gold,E:2}Monarchy{}'
                     }
                 }
             },
@@ -54,20 +54,20 @@ local other_loc_table = {
                         "i coded"
                     },
                     {
-                        "{C:inactive}[Excerpt from Electronic Gaming Monthly Issue 15 interview (1990)]{}",
-                        "{C:attention}\"So, we had this idea, right?",
-                        "{C:attention}What if... just what if... we made a spaceship for",
-                        "{C:attention}the space event! Everyone thought we were out of our minds! (laughs)\"{}",
+                        "{C:inactive}[节选自《电子游戏月刊》第 15 期 (1990 年) 采访] {}",
+                        "{C:attention}“所以，我们有了这个想法，对吧？",
+                        "{C:attention} 如果......只是如果......我们为",
+                        "{C:attention} 太空事件！所有人都以为我们疯了！“(笑)” {}",
                         " ",
-                        "{C:blue}\"Interesting. And was there any other idea",
-                        "{C:blue}you had in mind at the time?\"{}",
+                        "{C:blue}“有意思。还有其他想法吗？”",
+                        "{C:blue} 你当时脑子里在想什么？“{}",
                         " ",
-                        "{C:attention}\"No.\"{}"
+                        "{C:attention}“没有。” {}"
                     },
                     {
-                        "Also worked on:",
-                        "{C:green}JokerDisplay{}, {C:hearts}JoyousSpring",
-                        "{C:purple}N's Repertorium{}, {C:blue}VanillaRemade"
+                        "还在做以下工作：",
+                        "{C:green}JokerDisplay{}、{C:hearts}JoyousSpring",
+                        "{C:purple}N 的曲目 {}、{C:blue}VanillaRemade"
                     }
                 }
             },
@@ -79,7 +79,7 @@ local other_loc_table = {
                         'to be on this awesome team'
                     },
                     {
-                        'Some of my mods include {C:attention,E:2}SDM_0\'s Stuff{},',
+                        '我的一些模块包括 {C:attention,E:2}SDM_0 的 Stuff{},',
                         '{C:money,E:2}Joker Evolution{} and {C:red,E:2}Make-A-Tro{}'
                     }
                 }
@@ -88,14 +88,14 @@ local other_loc_table = {
                 name = 'DillyTheDillster',
                 text = {
                     {
-                        'I joined this event specifically for this team',
-                        "I did the original framework for the module dialog, as well",
-                        "as the shader for it among other things! I love these guys",
-                        "and I beg you to check out each of their mods, they're all fantastic!"
+                        '我专门为这个团队参加了这个活动',
+                        "我为模块对话框制作了原始框架，同时",
+                        "作为它的着色器和其他工作！我喜欢这些家伙",
+                        "我恳请大家查看他们的每一个模块，它们都太棒了！"
                     },
                     {
-                        'I also work on {C:worm_dilly}Dilatro{} primarily, soon to be released',
-                        "Featuring 3D blinds and more!"
+                        '我主要还在研究 {C:worm_dilly}Dilatro{}，很快就会发布。',
+                        "功能包括 3D 百叶窗和更多！"
                     }
                 }
             },
@@ -104,14 +104,14 @@ local other_loc_table = {
                 text = {
                     {
                         'I thought I was going to be doing',
-                        "some programming or art",
+                        "一些编程或艺术",
                         "but my team was so talented",
-                        "that I was mostly an ideas guy"
+                        "我主要是个有想法的人"
                     },
 
                     {
-                        "I made {C:attention}Glue For Modpacks{},",
-                        "{C:mult}Blockbuster{} & {C:worm_ice,E:2}Balatro Goes Kino"
+                        "我为 Modpacks 做了 {C:attention}Glue{},",
+                        "{C:mult}Blockbuster {} 和 {C:worm_ice,E:2}Balatro 奇诺"
                     }
                 }
             },
@@ -119,7 +119,7 @@ local other_loc_table = {
                 name = 'RattlingSnow',
                 text = {
                     {
-                        '"Jack of all trades, master of none. though oftentimes better than a master of one"'
+                        '杰克是所有行业的佼佼者，却不是任何行业的大师。尽管有时候他比一个行业的大师还要厉害。'
                     }
                 }
             },
@@ -127,11 +127,11 @@ local other_loc_table = {
                 name = 'itsmythie',
                 text = {
                     {
-                        'Creator and Artist',
+                        '创作者和艺术家',
                         'of Monarchy'
                     },
                     {
-                        'the shit i went through to be here',
+                        '我经历了多少磨难才来到这里',
                         '{s:4,tbp_img:worm_tbp_cyclone}a{}'
                     }
                 }
@@ -269,7 +269,7 @@ local other_loc_table = {
                         "购买这张牌来查看它的作用",
                 }
             },
-            
+
         },
         Tag = {
             tag_worm_tbp_rocketry = {

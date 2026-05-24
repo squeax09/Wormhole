@@ -35,12 +35,12 @@ return {
 		name = "WilsontheWolf",
 		text = {
 		    {
-			"{C:attention}Uncoventional Game Crasher{},",
+			"{C:attention} 非传统游戏 Crasher{},",
 			"{C:attention}Resident Corn Lover{} and",
 			"{C:attention}Occasional Fish Poster",
 		    },
 		    {
-			"Also Checkout:",
+			"另请检查：",
 			"{C:attention}Metal Pipe Crashing Noise",
 		    },
 		}
@@ -54,12 +54,12 @@ return {
 					"{s:0.8,C:inactive}https://github.com/frostice482/amulet{}"
 				}
 				or not Talisman.Amulet and {
-					"what? u stil use {C:red}talisman{}??",
-					"use {E:1,C:blue}amulet{} instead!!!!!",
+					"什么？你还在使用 {C:red} 塔勒斯曼 {}##",
+					"使用 {E:1,C:blue}amulet{} 代替！!!!",
 					"{s:0.8,C:inactive}https://github.com/frostice482/amulet{}"
 				}
 				or {
-					"thx for using {E:1,C:blue}amulet{} :)"
+					"thx 用于使用 {E:1,C:blue}amulet{}:)"
 				}
 			},
 		},
@@ -68,7 +68,7 @@ return {
 		text = {
 		    {
 			" /\\_/\\",
-			" ( o.o )",
+			"(o.o)",
 			" > ^ <",
 		    },
 		    {

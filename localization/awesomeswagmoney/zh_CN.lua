@@ -66,10 +66,10 @@ return {
             PotatoPatchDev_worm_garb = {
                 name = "Garb",
                 text = {
-                    {"Hi!!!! I'm Garb", "I made GARBSHIT"},
+                    {"嗨！!!！我是 Garb", "我做了 GARBSHIT"},
                     {
-                        'Play my game Onibi when it comes out in uhhh',
-                        '2000 years'
+                        '等我的游戏《鬼怪》出来的时候来玩吧，嗯......',
+                        '两千年'
                     }, {'I fucking love Xurkitree'}
                 }
             },
@@ -79,9 +79,9 @@ return {
             },
             PotatoPatchDev_worm_omega = {name = "Omegaflowey18", text = {
                 {
-                    "Artist, resident joker shipper",
-                    "Artist for Hot Potato, BU Language Mod, and guest artist on Garbshit",
-                    "If you see Perkeo kissing Triboulet anywhere, it's probably my fault",
+                    "艺术家，常驻搞笑发包商",
+                    "Hot Potato、BU Language Mod 的艺术家，Garbshit 的客串艺术家",
+                    "如果你在任何地方看到 Perkeo 亲吻 Triboulet，那可能是我的错",
                 },
                 {
                     "I fucking love Blacephalon"
@@ -90,23 +90,23 @@ return {
             PotatoPatchDev_worm_superb = {
                 name = "Superb Thing",
                 text = {
-                    "Hello, I'm Superb Thing",
-                    "I exist, apparently",
-                    'I made a mod called "Electrum"',
-                    "That's all, I think"
+                    "你好，我真是太棒了",
+                    "我存在，显然",
+                    '我创建了一个名为 “Electrum” 的 Mod',
+                    "就这样，我想"
                 }
             },
             PotatoPatchDev_worm_eris = {name = "Eris", text = {
                 {"we outta ultra wormholes"},
                 {
-                    "Mod dev for {C:spectral}Spectrallib{} and {C:spectral}Cryptid{},",
+                    "{C:spectral}Spectrallib{} 和 {C:spectral}Cryptid{} 的 Mod Dev,",
                     "and my solo-dev mod {C:planet}Hypernova{}.",
-                    "You might also have seen me",
+                    "你可能也见过我",
                     "in previous {C:attention}Potato Patch{} events"
                 },
                 {
                     "I fucking love the hit videogame",
-                    "{C:attention}Risk of Rain 2{}, and also {C:worm_ultrabeast}Nihilego"
+                    "{C:attention}Risk of Rain 2{}，以及 {C:worm_ultrabeast}Nihiego"
                 }
             }}
         },
@@ -218,7 +218,7 @@ return {
         poker_hands = {},
         quips = {
             worm_kartana_jumpscare = { --reverse jetstream sam jumpscare
-                "?tsal uoy nac gnol woH"
+                "#tsal uoyi nacgnol woH"
             }
         },
         ranks = {},

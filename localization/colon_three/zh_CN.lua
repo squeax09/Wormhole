@@ -283,7 +283,7 @@ return {
         --     v_worm_fuel_efficiency = {
         --         name = "燃油效率",
         --         text = {
-        --             "{C:attention}清理{}牌时可以少选择",                        
+        --             "{C:attention}清理{}牌时可以少选择",
         --             "{C:attention}1{}张牌",
         --             "{C:inactive}(最少1张)"
         --         }
@@ -364,17 +364,17 @@ return {
             PotatoPatchDev_lordruby = {
                 name = "lord.ruby",
                 text = {
-                    "And an angel came down to me. it put its hand",
-                    "on my shoulder. Softer than the finest fabrics",
-                    "I have ever felt; and the angel spoke out to me",
-                    '"OMG it\'s the {C:worm_ruby}creator{} of {C:worm_entropy,E:1}Entropy{}, I\'m such a big fan"',
-                    "in its pretty, {C:worm_entropy,E:1}gay{} little voice."
+                    "一位天使降临到我身边，将手",
+                    "在我的肩膀上。比最好的布料还要柔软",
+                    "我从未感受过;天使对我说话",
+                    '“天哪，这是 {C:worm_ruby} 的创造者 {}，我是 {C:worm_entropy,E:1}entropy{} 的超级粉丝。”',
+                    "用它那漂亮的、{C:worm_entropy,E:1}gay{} 的小声音。"
                 }
             },
             PotatoPatchDev_nxkoo = {
                 name = "N____",
                 text = {
-                    "Apathy."
+                    "冷漠。"
                 }
             },
             PotatoPatchDev_meta = {
@@ -382,12 +382,12 @@ return {
                 text = {
                     { "wruff wruff :3" },
                     {
-                        "did some code and a little",
-                        "bit of art, as well as a good",
-                        "amount of conceptual work"
+                        "做了一些代码和一点",
+                        "一点艺术，也是一件好事。",
+                        "概念工作量"
                     },
                     {
-                        "still hard at work",
+                        "仍在努力工作",
                         "on Quintessence"
                     }
                 }
@@ -395,9 +395,9 @@ return {
             PotatoPatchDev_ophelia = {
                 name = "ivy",
                 text = {
-                    "mysterious puppygirl who {X:pure_black,C:pure_black}nothing",
-                    "i did some art!",
-                    "Find me at",
+                    "神秘的小狗女孩，她 {X:pure_black,C:pure_black}Nothing",
+                    "我做了一些艺术！",
+                    "请在",
                     "https://{X:pure_black,C:pure_black}aaaaaaa{}.com/{X:pure_black,C:pure_black}meowmeow{}"
                 }
             },
@@ -408,13 +408,13 @@ return {
                         "this {C:spectral}hexes{} me"
                     },
                     {
-                        "i did a lot of art and code",
-                        "and came up with the {C:worm_c3_junkset}Derelict",
-                        "cards' mechanic"
+                        "我做了很多美术和代码",
+                        "并想出了 {C:worm_c3_junkset}Derelict",
+                        "卡牌的机制"
                     },
                     {
-                        "maybe play More Fluff",
-                        "{s:0.5}(Or: an Assortment of Balatro Cards of Dubious Excellence)",
+                        "也许可以玩更多 Fluff",
+                        "{s:0.5}(或者：一组质量可疑的巴拉特罗卡片)",
                     }
                 }
             },

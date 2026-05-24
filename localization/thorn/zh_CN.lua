@@ -8,13 +8,13 @@ return {
                     name = "Marie",
                     text = {
                         {
-                            "here for the free food"
+                            "这里是免费食物"
                         },
                         {
-                            "sits there and looks kinda okay i guess"
+                            "坐在那里看起来还不错，我猜。"
                         },
                         {
-                            "emotional support (derogatory)"
+                            "情感支持 (贬义)"
                         }
                     },
                 },
@@ -25,15 +25,15 @@ return {
                             "{C:worm_thorn_willow}tree noise"
                         },
                         {
-                            "{C:purple}Translates to: out her space?",
-                            "{C:purple}i hardly know her!"
+                            "{C:purple} 翻译成：离开她的空间？",
+                            "{C:purple} 几乎不认识她！"
                         },
                         {
-                            "{C:purple}(Willow was then cut down",
-                            "{C:purple}and turned into paper)"
+                            "{C:purple}(然后杨树被砍倒了",
+                            "{C:purple} 变成了纸)"
                         }
                     },
-                    
+
                 },
                 PotatoPatchDev_mtw = {
                     name = "MightyKingWario",
@@ -42,9 +42,9 @@ return {
                             "{C:red}among us twerk gif{}"
                         },
                         {
-                            "I did the the art for:",
-                            "{C:planet}Interplanetary Travel{},",
-                            "{C:purple}Imaginary Purple Deck{},",
+                            "我做这件艺术品是为了：",
+                            "{C:planet} 星际旅行 {},",
+                            "{C:purple} 虚拟紫色 Deck{},",
                             "and a {C:attention}couple{} of {C:red}other things{}"
                         }
                     },
@@ -53,12 +53,12 @@ return {
                     name = "Evgast",
                     text = {
                         {
-                        "True Fact:",
-                        "The {C:red}government{} doesn't",
-                        "want you to play {C:green}Jimbo&!{}"
+                        "真实事实：",
+                        "{C:red} 政府不",
+                        "想让你玩 {C:green}Jimbo&! {}"
                         },
                         {
-                        "Fun Fact:",
+                        "有趣的事实：",
                         "Purple {C:purple}bitches{} are evil"
                         }
                     }
@@ -67,15 +67,15 @@ return {
                     name = "Sophie",
                     text = {
                         {
-                            "play cracker mod please",
+                            "请玩黑客模式",
                         }
                     }
                 },
                 PotatoPatchDev_hatstack = {
                     name = "Hat Stack",
                     text = {
-                        "check out Uncle Grandpa for a Day on youtube.com,",
-                        "I'm not sponsored I'm just a big fan"
+                        "在 youtube.com 上看一天《叔叔爷爷》吧，",
+                        "我不是赞助商，我只是个超级粉丝"
                     },
                 }
             },
@@ -235,6 +235,9 @@ return {
             dictionary = {
                 k_thorn_giygas_reveal = '揭示！',
                 k_thorn_giygas_enhanced = '强化！',
+            },
+            v_dictionary = {
+                k_thorn_hand_already_played = '#1# 在本底注中已经打出过'
             }
         }
 }

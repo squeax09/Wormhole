@@ -16,7 +16,7 @@ return {
                     "你{C:attention}牌组{}中每有一张",
                     "非{C:spades}黑桃{}牌便{C:chips}+#2#{}筹码",
                     "{C:inactive}(当前为{C:chips}+#1#{C:inactive}筹码)",
-                } 
+                }
             },
 
             j_worm_stew_dinosaur_earth = {
@@ -214,54 +214,54 @@ return {
             stupxd = {
                 name = "stupxd",
                 text = {
-                    "Play {C:red}Balatro{}, I heard",
-                    "it's a great game!",
+                    "玩 {C:red}Balatro{}，我听说",
+                    "这是一个伟大的游戏！",
                 }
             },
             PLagger = {
                 name = "PLagger",
                 text = {
-                    "Shout out {C:money}Cheese{C:green}Pear{} and {C:green}Phrog{}, you two are",
+                    "喊出 {C:money} 奶酪 {C:green}Pear{} 和 {C:green}Phrog{}，你们两个是......",
                     'the {s:2,E:1,C:attention}GOAT{s:0.8,C:inactive}Lybear Lybear{}',
                     '',
-                    'Also Ado nation rise up'
+                    '此外，阿多国崛起'
                 }
             },
             dottykitty = {
                 name = "dottykitty",
                 text = {
-                    "Did you know?",
-                    "When the big bang happened,",
+                    "你知道吗？",
+                    "当大爆炸发生时，",
                     "DrSpectred was there.",
-                    "He wrote a paragraph about it.",
+                    "他写了一段关于它的内容。",
                 }
             },
             Wingcap = {
                 name = "Wingcap",
                 text = {
-                    "Did you know you can",
-                    "play RuneScape on your",
-                    "phone as well as your",
-                    "second monitor?",
+                    "你知道你可以......",
+                    "在你的显示器上玩 RuneScape",
+                    "你的手机和",
+                    "第二个显示器？",
                 }
             },
             tuzzo = {
                 name = "tuzzo",
                 text = {
-                    "This stew is new to me,",
+                    "这道炖菜对我来说很新鲜，",
                     "but I am honored to be a part of it",
                 }
             },
             HonuKane = {
                 name = "HonuKane",
                 text = {
-                    "womp womp",
+                    "汪姆汪姆",
                 }
             },
             harmonywoods = {
                 name = "harmonywoods",
                 text = {
-                    "womp womp",
+                    "汪姆汪姆",
                 }
             },
         },
@@ -269,9 +269,9 @@ return {
     misc = {
         dictionary = {
             k_worm_stew_dinos_extinct = '灭绝',
-            k_worm_stew_yum = 'Yum!',
-            k_worm_stew_cook = 'Let Him Cook!',
-            k_worm_stew_uncook = 'Stove\'s Off...',
+            k_worm_stew_yum = '好吃！',
+            k_worm_stew_cook = '让他去烹饪吧！',
+            k_worm_stew_uncook = '炉火熄灭了......',
         },
         labels = {
             worm_stew_stellar = '群星'
@@ -288,7 +288,7 @@ return {
             ach_worm_stew_true_communist = '使用纯净小丑获得至少+750筹码',
             ach_worm_stew_perpetual_stew = '使用炖汤地球获得至少x10倍率',
         }
-        
+
 
     },
 }

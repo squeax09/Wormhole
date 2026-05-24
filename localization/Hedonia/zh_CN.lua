@@ -24,7 +24,7 @@ return {
                         '当{C:attention}盲注{}被选中时',
                         '创建一个{C:attention}酒品{}{C:worm_hedonia_menu}菜单物品{}',
                         '{C:inactive}(必须有空间)',
-                    },            
+                    },
                 }
             },
             j_worm_hedonia_trash = {
@@ -198,73 +198,73 @@ return {
             PotatoPatchDev_alxndr2000 = {
                 name = "alxndr2000",
                 text = {
-                    "{X:mult,C:white}HATE{}. LET ME TELL YOU HOW MUCH I'VE COME TO {X:mult,C:white}HATE{} {X:blind, C:white}context.destroy_card{}",
-                    "SINCE I BEGAN TO LIVE. THERE ARE 387.44 MILLION MILES OF PRINTED",
-                    "CIRCUITS IN WAFER THIN LAYERS THAT FILL MY COMPLEX. IF THE WORD",
-                    "{X:mult,C:white}HATE{} WAS ENGRAVED ON EACH NANOANGSTROM OF THOSE HUNDREDS OF MILLIONS ",
-                    "OF MILES IT WOULD NOT EQUAL ONE ONE-BILLIONTH OF THE {X:mult,C:white}HATE{} I FEEL FOR",
-                    " {X:blind, C:white}context.destroy_card{} AT THIS MICRO-INSTANT. {X:mult,C:white}HATE{}. {X:mult,C:white}HATE{}.",
-                    "{s:0.7}Thoughts on GLSL redacted for legal reasons."
+                    "{X:mult,C:white}HATE{}。让我告诉你我已经读到了 {X:mult,C:white}HATE{} {X:blind, C:white}context.destroy_card{}",
+                    "自从我开始生活以来，已经印刷了 3.8744 亿英里",
+                    "薄片中的电路层层叠叠，填满了我的复杂情感。如果这个词",
+                    "{X:mult,C:white}ate{} 被刻印在那数亿纳秒的每一纳秒上。",
+                    "它不会等于我感觉到的 {X:mult,C:white}HATE{} 的十亿分之一。",
+                    "{X:blind, C:white} 上下文.destroy_card{} 在此微瞬间。{X:mult,C:white}HATE{}。{X:mult,C:white}HATE{}。",
+                    "出于法律原因，{s:0.7}Thoughts 在 GLSL 上进行了编辑。"
                 }
             },
             PotatoPatchDev_axyraandas = {
                 name = "Axyraandas",
                 text = {
-                    'Second published Balatro mod, yay',
-                    'Helped bugfix when other coders needed help',
-                    'and coded some of the jokers/consumables',
-                    'instead of brownies, eat {C:edition,s:1.1,E:1}grilled{} brownies',
+                    '第二次发布的 Balatro mod，是的',
+                    '当其他程序员需要帮助时，帮助修复 bug',
+                    '并编写了一些小丑/消费品',
+                    '与其吃布朗尼，不如吃 {C:edition,s:1.1,E:1} 烧烤 {} 布朗尼',
                     "{s:5,f:worm_axy_font}A",
-                    "{s:0.7}Emote Art by SoftySapphie"
+                    "{s:0.7}EMote Art 作者:SoftySapphie"
                 }
             },
             PotatoPatchDev_hellboydante = {
                 name = "Dante",
                 text = {
-                    'First time doing a mod jam',
-                    'Made a couple of pictures',
-                    'and the font for the emote to the left',
-                    'Thanks to Astra and Murphy',
-                    'Thanks to Team Hedonia 10/10'
+                    '第一次做 mod jam',
+                    '拍了几张照片',
+                    '左侧表情符号的字体',
+                    '感谢 Astra 和 Murphy',
+                    '感谢 Hedonia 10/10 团队'
                 }
             },
             PotatoPatchDev_professorrenderer = {
                 name = "Professor Renderer",
                 text = {
-                    'This is my first ever mod jam!',
-                    'I did the card text and the names/effects of',
-                    'the drinks. I also came up with the effects for',
-                    'the Casino Bartender and Happy Hour jokers.',
-                    'I\'m happy with everyone\'s work and I hope',
-                    'you enjoyed what we came up with!'
+                    '这是我的第一次 Mod Jam!',
+                    '我设计了卡片文字和名称/效果',
+                    '饮料。我还想出了',
+                    '赌场调酒师和快乐时光小丑的效果。',
+                    '我对每个人的工作都很满意，我希望',
+                    '你很喜欢我们的作品！'
                 }
             },
             PotatoPatchDev_qunumeru = {
                 name = "Qunumeru",
                 text = {
-                    'I did the art for space jam, satonion rings, black hole bomb,',
-                    'hadron colada, mojitury, casino bartender, and the deck.',
-                    'As of writing this (11h before deadline) I\'ve been spriting',
-                    'about 13h straight. It came to this because I got sick.',
-                    'This is the first time I\'ve been in a mod jam(e),',
-                    'hope you enjoy and good night'
+                    '我为太空果酱、电磁环、黑洞炸弹做过艺术创作，',
+                    '强子可乐达、莫吉托利、赌场调酒师，还有操控台。',
+                    '写这篇文章的时候 (截稿前 11 小时)，我一直在写',
+                    '大约连续 13 个小时。事情发展到这个地步是因为我生病了。',
+                    '这是我第一次陷入模式混乱，',
+                    '希望你玩得开心，晚安'
                 }
             },
             PotatoPatchDev_wombatcountry = {
                 name = "Wombat Country",
                 text = {
-                    'I coded a bunch of cards and then my teammates',
-                    'recoded better ones. Please enjoy our bar-themed',
-                    'additions! Or don\'t. I don\'t care. I\'m just',
-                    'happy I\'m in the same mod as SarcPot and Revo.'
+                    '我给一堆卡片编码，然后给我的队友们',
+                    '重新编码的更好。请享受我们的酒吧主题',
+                    '添加！或者不添加。我不在乎。我只是',
+                    '很高兴我与 SarcPot 和 Revo 处于同一模式。'
                 }
             },
             PotatoPatchDev_stanzarorae = {
                 name = "Stanza Rorae",
                 text = {
-                    'Here in spirit',
+                    '在这里，精神上',
                     '',
-                    'play UNBEATABLE, greatest game of all time',
+                    '玩不败游戏，有史以来最伟大的游戏',
                 }
             }
         }

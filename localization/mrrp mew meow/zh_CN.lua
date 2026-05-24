@@ -85,7 +85,7 @@ descriptions={
 				"当升级任何{C:attention}牌型{}时，",
 				"以随机顺序创建{C:tarot}#1#{}、",
 				"{C:tarot}#2#{}、{C:tarot}#3#{}和",
-				"{C:tarot}#4#{}",
+				"{C:tarot}###{}#{C:planet}###{}##{C:spectral}####{}",
 				"{C:inactive}(必须有空位){}"
 			}
 			--[[] ]
@@ -239,17 +239,17 @@ descriptions={
 			name = 'SarcPot',
 			text = {
 				{
-					"Hey, i'm {C:attention}SarcasticPotato{} (aka. {C:attention}Sarc{})",
-					"{C:mrrp_orange2,s:0.9}Like. you know. from the mod. {C:attention,s:0.9}SarcPot{}"
+					"嘿，我是 {C:attention}SarcasticPotato{}（也叫 {C:attention}Sarc{}）",
+					"{C:mrrp_orange2,s:0.9} 类似。你知道的。来自模块。{C:attention,s:0.9}SarcPot{}"
 				},
 				{
-					"I did most of the {C:attention}art{} for our portion",
-					"of the mod and helped {C:attention}design{} and",
-					"{C:attention}concept{} a lot of the Jokers as well."
+					"我为我们的部分做了大部分 {C:attention}art{}",
+					"帮助 {C:attention} 设计 {} 和",
+					"{C:attention}concept{} 还有很多 Joker。"
 				},
 				{
-					"Maybe not the best idea to have",
-					"the slowest dev (and artist)",
+					"也许这不是最好的主意",
+					"最慢的开发者 (和艺术家)",
 					"participate in a modjam but {C:attention}hey{}."
 				},
 			},
@@ -258,10 +258,10 @@ descriptions={
 			name = 'Shinku',
 			text = {
 				{
-					"Hi. I'm {C:mrrp_crimson}Shinku{}."
+					"嗨，我是 {C:mrrp_crimson}Shinku{}。"
 				},
 				{
-					"I worked on/created",
+					"我制作/创作了",
 					"mods like {C:hearts}Ortalab{}",
 					"and {C:mrrp_crimson}Parallel Update{}."
 				}
@@ -271,15 +271,15 @@ descriptions={
 			name = 'MP',
 			text = {
 				{
-					"Hey-hey. {C:mrrp_blue}MP{} here."
+					"嘿嘿，这里是 {C:mrrp_blue}MP{}。"
 				},
 				{
-					"This was my first jam, and I had",
+					"这是我的第一个果酱，而且我",
 					"a LOT of Joker concepts for this.",
-					"Oh, and I made some code too!"
+					"哦，我还编写了一些代码！"
 				},
 				{
-					"{C:mrrp_blue}Buru-nyuu~{}"
+					"{C:mrrp_blue}Buru-nyu~{}"
 				},
 			},
 		},
@@ -287,11 +287,11 @@ descriptions={
 			name = 'Aure',
 			text = {
 				{
-					"Hi, I'm {E:2,C:mrrp_green}Aure{} aka {E:2,C:mrrp_green}Mr. SMODS."
+					"你好，我是 {E:2,C:mrrp_green}aure{}，也叫 {E:2,C:mrrp_green}Mr. SMODS。"
 				},
 				{
-					"I had {E:2,C:mrrp_blue}some{} of the ideas",
-					"and did {E:2,C:mrrp_blue}some{} of the code",
+					"我有 {E:2,C:mrrp_blue}some{} 的想法",
+					"然后对代码做了 {E:2,C:mrrp_blue}some{}",
 					"for this team.",
 				},
 				{
@@ -303,17 +303,17 @@ descriptions={
 			name = 'mys. minty',
 			text = {
 				{
-					"hey there everynyan my name's {C:mrrp_green,E:1}Minty{} :3",
-					"you may know me from silly little mods",
+					"嘿，大家好，我叫 {C:mrrp_green,E:1}Minty{}:3",
+					"你可能从那些傻乎乎的小模组里认识我",
 					"like {C:mrrp_pink,E:2}Menthol{} or {C:mrrp_pink,E:2}Bibliography{}"
 				},
 				{
-					"i did some {C:mrrp_blue}code{} because it's fun",
-					"and I'm good at it :3c",
+					"我做了一些 {C:mrrp_blue}code{}，因为很有趣",
+					"我很擅长这个:3c",
 				},
 				{
 					"and i like to nya",
-					"{C:mrrp_pink}nyaaaaaa~ {C:mrrp_cyan}:3 {C:mrrp_green}:3 {C:mrrp_orange}:3"
+					"{C:mrrp_pink} 喵～{C:mrrp_cyan}:3 {C:mrrp_green}:3 {C:mrrp_orange}:3"
 				},
 			},
 		},
@@ -321,21 +321,21 @@ descriptions={
 			name = 'Cyan',
 			text = {
 				{
-					"{C:mrrp_cyan,E:2}CyanSoCalico{}, neurotic catboy! :3",
+					"{C:mrrp_cyan,E:2}CyanSoCalico{}，神经质的猫男孩！:3",
 				},
 				{
-					"I was recruited as an {C:mrrp_cyan}artist{} but",
-					"also ended up doing a lot of the",
-					"code, concepts, and coordination!",
+					"我被招募为 {C:mrrp_cyan}artist{}，但",
+					"最后还做了很多",
+					"代码、概念和协调！",
 				},
 				{
-					"I'm so honored that I was given",
+					"我非常荣幸被授予",
 					"a chance as the new kit in town",
-					"by all of the people I admire ;w;",
-					"{C:mrrp_pink,E:1}Best first anything-jam ever <3{}"
+					"来自所有我敬佩的人;w;",
+					"{C:mrrp_pink,E:1} 首先是最棒的——Jam 从未<3{}"
 				},
 				{
-					"Look out for {C:mrrp_cyan,E:1}Steady Hand{}!"
+					"小心 {C:mrrp_cyan,E:1}Steady Hand{}!"
 				}
 			},
 		}
@@ -386,7 +386,7 @@ misc={
 		},
 		worm_mrrp_no_biblio_win = {
 			"我有一整本",
-			"Bibliography，",
+			"参考文献，",
 			"里面全是这样酷的小丑！"
 		},
 		worm_mrrp_no_biblio_loss = {
@@ -417,7 +417,7 @@ misc={
 		worm_mrrp_no_index = {
 			"城市的意志",
 			"召唤你加入",
-			"The Index。"
+			"索引。"
 		},
 		worm_mrrp_index = {
 			"不如我再给你加一条",

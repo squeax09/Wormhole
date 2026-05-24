@@ -4,7 +4,7 @@ return {
         ---POTATO PATCH---
         ------------------
         ---POTATO PATCH---
-        
+
         PotatoPatch = {
 
             -- Team Name
@@ -15,44 +15,44 @@ return {
                 name = "RandomsongV2",
                 text = {
                     "I couldnt think of",
-                    "what to put as sprite",
-                    "so here is dancing rory nyte"
+                    "该放什么作为角色呢？",
+                    "这里是舞蹈版的罗里·奈特"
                 }
             },
-            
+
             -- Microwave
             PotatoPatchDev_microwave = {
                 name = "Microwave",
                 text = {
                     "locked in",
-                    "wow!"
+                    "哇！"
                 }
             },
-            
+
             -- Waffle
             PotatoPatchDev_waffle = {
                 name = "Waffle",
                 text = {
                     "nondescript agender entity",
-                    "\"you guys ever listen to {C:edition}MCR{}?\""
+                    "你们听过 {C:edition}Negative Jimbo{} 吗？"
                 }
             },
-            
+
             -- A Tired Guy
             PotatoPatchDev_atiredguy = {
                 name = "A tired guy",
                 text = {
                     "seems very tired",
-                    "wow!"
+                    "哇！"
                 }
             },
-            
+
             -- Edward Robinson
             PotatoPatchDev_edwardrobinson = {
                 name = "Edward Robinson",
                 text = {
                     "cool name",
-                    "wow!"
+                    "哇！"
                 }
             },
         },
@@ -62,7 +62,7 @@ return {
         ---JOKERS---
         ------------
         ---JOKERS---
-        
+
         Joker = {
 
             -- SPACEWALK
@@ -116,7 +116,7 @@ return {
         ---VOUCHERS---
         --------------
         ---VOUCHERS---
-        
+
         Voucher = {
 
             -- FIRST CONTACT
@@ -145,7 +145,7 @@ return {
         ---ALIEN SETUP---
         -----------------
         ---ALIEN SETUP---
-        
+
         Other = {
             p_worm_shrug_alien_normal_1 = {
                 name = "目击包",
