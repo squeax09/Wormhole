@@ -52,9 +52,12 @@ SMODS.Consumable{
         return G.GAME.worm_tlr_last_const_used ~= self.key and G.GAME.worm_tlr_last_const_used ~= nil
     end,
     use = function(self,card,area,copier)
-        local newcard = SMODS.add_card({key = G.GAME.worm_tlr_last_const_used})
-        if card.ability.tier >= 3 then newcard:set_edition("e_negative") end
-        newcard.ability.tier = card.ability.tiers[card.ability.tier]
-        WORM_TLR.update_const_sprite(newcard.config.center, newcard)
+        local times = card.ability.tier < 4 and 1 or 2
+        for i = 1, times do
+            local newcard = SMODS.add_card({key = G.GAME.worm_tlr_last_const_used})
+            if card.ability.tier >= 3 then newcard:set_edition("e_negative") end
+            newcard.ability.tier = card.ability.tiers[card.ability.tier]
+            WORM_TLR.update_const_sprite(newcard.config.center, newcard)
+        end
     end
 }
