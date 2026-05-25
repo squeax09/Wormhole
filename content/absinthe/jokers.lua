@@ -177,6 +177,11 @@ SMODS.Joker {
     ppu_coder = { 'pi_cubed' },
     ppu_artist = { 'AstraLuna'},
     ppu_team = { 'absinthe' },
+    config = {
+        extra = {
+            poker_hand = 'Straight Flush'
+        }
+    },
     attributes = {
         'hand_type',
         'generation',
@@ -192,10 +197,17 @@ SMODS.Joker {
         end
         return false
 	end,
+    loc_vars = function(self, info_queue, card)
+        return {
+            vars = {
+                localize(card.ability.extra.poker_hand, 'poker_hands')
+            }
+        }
+    end,
     calculate = function(self, card, context)
-        if context.before and  
-        (next(context.poker_hands["Flush House"]) or next(context.poker_hands["Five of a Kind"]) 
-        or next(context.poker_hands["Straight Flush"])) and not context.blueprint then
+        if context.before
+        and SMODS.PokerHands[context.scoring_name].chips * SMODS.PokerHands[context.scoring_name].mult >= SMODS.PokerHands[card.ability.extra.poker_hand].chips * SMODS.PokerHands[card.ability.extra.poker_hand].mult
+        and not context.blueprint then
             if #G.consumeables.cards + G.GAME.consumeable_buffer < G.consumeables.config.card_limit then
                 G.GAME.consumeable_buffer = G.GAME.consumeable_buffer + 1
                 local drink_list = {}

@@ -378,7 +378,7 @@ return {
                 text = {
                     "{C:abs_drinks}Refill{} and {C:attention}copy{} a random owned",
                     "{C:abs_drinks}Drink{} if played poker hand is",
-                    "a {C:attention}Straight Flush{} or better",
+                    "a {C:attention}#1#{} or better",
                     "{C:red,E:2}self destructs{}",
                     "{C:inactive}(Must have space!)",
 
