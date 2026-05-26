@@ -43,11 +43,46 @@ SMODS.Attribute {
     key = 'drinks'
 }
 
-SMODS.Booster {
-    key = "abs_top_shelf_normal_1",
+Wormhole.Absinthe.TopShelfBooster = SMODS.Booster:extend {
     kind = "abs_drinks",
     group_key = "k_worm_abs_top_shelf_pack",
-    atlas = "abs_boosters",
+    atlas = "worm_abs_boosters",
+    ppu_coder = { 'theAstra', 'pi_cubed' },
+    ppu_artist = { 'AnneBean' },
+    ppu_team = { 'absinthe' },
+    weight = 1,
+    select_card = 'consumeables',
+    create_card = function(self, card)
+        return create_card("abs_drinks", G.pack_cards, nil, nil, true, true, nil, "worm_abs_top_shelf")
+    end,
+    ease_background_colour = function(self)
+        ease_colour(G.C.DYN_UI.MAIN, G.C.SECONDARY_SET.abs_drinks)
+        ease_background_colour({ new_colour = G.C.SECONDARY_SET.abs_drinks, special_colour = G.C.BLACK, contrast = 1 })
+    end,
+    particles = function(self)
+        G.booster_pack_stars = Particles(1, 1, 0, 0, {
+            timer = 0.03,
+            scale = 0.3,
+            lifespan = 5,
+            speed = 3,
+            vel_variation = 0.3,
+            padding = -2,
+            r_vel = 0,
+            attach = G.ROOM_ATTACH,
+            colours = { adjust_alpha(G.C.WHITE, 0.4), adjust_alpha(HEX('fddca0'), 0.2), adjust_alpha(G.C.SET.abs_drinks, 0.3) },
+            fill = true,
+            rotation = math.pi,
+            rotation_variance = 0,
+            shape = 'circle',
+        })
+    end,
+    loc_vars = function(self, info_queue, card)
+        return { vars = { math.min(card.ability.choose + (G.GAME.modifiers.booster_choice_mod or 0), math.max(1, card.ability.extra + (G.GAME.modifiers.booster_size_mod or 0))), math.max(1, card.ability.extra + (G.GAME.modifiers.booster_size_mod or 0)) } }
+    end
+}
+
+Wormhole.Absinthe.TopShelfBooster {
+    key = "abs_top_shelf_normal_1",
     pos = {
         x = 0,
         y = 0
@@ -56,46 +91,11 @@ SMODS.Booster {
         extra = 2,
         choose = 1
     },
-    ppu_coder = { 'theAstra' },
-    ppu_artist = { 'AnneBean' },
-    ppu_team = { 'absinthe' },
-    cost = 5,
-    weight = 1,
-    select_card = 'consumeables',
-    create_card = function(self, card)
-        return create_card("abs_drinks", G.pack_cards, nil, nil, true, true, nil, "worm_abs_top_shelf")
-    end,
-    ease_background_colour = function(self)
-        ease_colour(G.C.DYN_UI.MAIN, G.C.SECONDARY_SET.abs_drinks)
-        ease_background_colour({ new_colour = G.C.SECONDARY_SET.abs_drinks, special_colour = G.C.BLACK, contrast = 1 })
-    end,
-    particles = function(self)
-        G.booster_pack_stars = Particles(1, 1, 0, 0, {
-            timer = 0.03,
-            scale = 0.3,
-            lifespan = 5,
-            speed = 3,
-            vel_variation = 0.3,
-            padding = -2,
-            r_vel = 0,
-            attach = G.ROOM_ATTACH,
-            colours = { adjust_alpha(G.C.WHITE, 0.4), adjust_alpha(HEX('fddca0'), 0.2), adjust_alpha(G.C.SET.abs_drinks, 0.3) },
-            fill = true,
-            rotation = math.pi,
-            rotation_variance = 0,
-            shape = 'circle',
-        })
-    end,
-    loc_vars = function(self, info_queue, card)
-        return { vars = { math.min(card.ability.choose + (G.GAME.modifiers.booster_choice_mod or 0), math.max(1, card.ability.extra + (G.GAME.modifiers.booster_size_mod or 0))), math.max(1, card.ability.extra + (G.GAME.modifiers.booster_size_mod or 0)) } }
-    end
+    cost = 5
 }
 
-SMODS.Booster {
+Wormhole.Absinthe.TopShelfBooster {
     key = "abs_top_shelf_normal_2",
-    kind = "abs_drinks",
-    group_key = "k_worm_abs_top_shelf_pack",
-    atlas = "abs_boosters",
     pos = {
         x = 1,
         y = 0
@@ -104,46 +104,11 @@ SMODS.Booster {
         extra = 2,
         choose = 1
     },
-    ppu_coder = { 'theAstra' },
-    ppu_artist = { 'AnneBean' },
-    ppu_team = { 'absinthe' },
-    cost = 5,
-    weight = 1,
-    select_card = 'consumeables',
-    create_card = function(self, card)
-        return create_card("abs_drinks", G.pack_cards, nil, nil, true, true, nil, "worm_abs_top_shelf")
-    end,
-    ease_background_colour = function(self)
-        ease_colour(G.C.DYN_UI.MAIN, G.C.SECONDARY_SET.abs_drinks)
-        ease_background_colour({ new_colour = G.C.SECONDARY_SET.abs_drinks, special_colour = G.C.BLACK, contrast = 1 })
-    end,
-    particles = function(self)
-        G.booster_pack_stars = Particles(1, 1, 0, 0, {
-            timer = 0.03,
-            scale = 0.3,
-            lifespan = 5,
-            speed = 3,
-            vel_variation = 0.3,
-            padding = -2,
-            r_vel = 0,
-            attach = G.ROOM_ATTACH,
-            colours = { adjust_alpha(G.C.WHITE, 0.4), adjust_alpha(HEX('fddca0'), 0.2), adjust_alpha(G.C.SET.abs_drinks, 0.3) },
-            fill = true,
-            rotation = math.pi,
-            rotation_variance = 0,
-            shape = 'circle',
-        })
-    end,
-    loc_vars = function(self, info_queue, card)
-        return { vars = { math.min(card.ability.choose + (G.GAME.modifiers.booster_choice_mod or 0), math.max(1, card.ability.extra + (G.GAME.modifiers.booster_size_mod or 0))), math.max(1, card.ability.extra + (G.GAME.modifiers.booster_size_mod or 0)) } }
-    end
+    cost = 5
 }
 
-SMODS.Booster {
+Wormhole.Absinthe.TopShelfBooster {
     key = "abs_top_shelf_jumbo_1",
-    kind = "abs_drinks",
-    group_key = "k_worm_abs_top_shelf_pack",
-    atlas = "abs_boosters",
     pos = {
         x = 2,
         y = 0
@@ -152,46 +117,11 @@ SMODS.Booster {
         extra = 4,
         choose = 1
     },
-    ppu_coder = { 'theAstra' },
-    ppu_artist = { 'AnneBean' },
-    ppu_team = { 'absinthe' },
-    cost = 7,
-    weight = 1,
-    select_card = 'consumeables',
-    create_card = function(self, card)
-        return create_card("abs_drinks", G.pack_cards, nil, nil, true, true, nil, "worm_abs_top_shelf")
-    end,
-    ease_background_colour = function(self)
-        ease_colour(G.C.DYN_UI.MAIN, G.C.SECONDARY_SET.abs_drinks)
-        ease_background_colour({ new_colour = G.C.SECONDARY_SET.abs_drinks, special_colour = G.C.BLACK, contrast = 1 })
-    end,
-    particles = function(self)
-        G.booster_pack_stars = Particles(1, 1, 0, 0, {
-            timer = 0.03,
-            scale = 0.3,
-            lifespan = 5,
-            speed = 3,
-            vel_variation = 0.3,
-            padding = -2,
-            r_vel = 0,
-            attach = G.ROOM_ATTACH,
-            colours = { adjust_alpha(G.C.WHITE, 0.4), adjust_alpha(HEX('fddca0'), 0.2), adjust_alpha(G.C.SET.abs_drinks, 0.3) },
-            fill = true,
-            rotation = math.pi,
-            rotation_variance = 0,
-            shape = 'circle',
-        })
-    end,
-    loc_vars = function(self, info_queue, card)
-        return { vars = { math.min(card.ability.choose + (G.GAME.modifiers.booster_choice_mod or 0), math.max(1, card.ability.extra + (G.GAME.modifiers.booster_size_mod or 0))), math.max(1, card.ability.extra + (G.GAME.modifiers.booster_size_mod or 0)) } }
-    end
+    cost = 7
 }
 
-SMODS.Booster {
+Wormhole.Absinthe.TopShelfBooster {
     key = "abs_top_shelf_mega_1",
-    kind = "abs_drinks",
-    group_key = "k_worm_abs_top_shelf_pack",
-    atlas = "abs_boosters",
     pos = {
         x = 3,
         y = 0
@@ -200,39 +130,7 @@ SMODS.Booster {
         extra = 4,
         choose = 2
     },
-    ppu_coder = { 'theAstra' },
-    ppu_artist = { 'AnneBean' },
-    ppu_team = { 'absinthe' },
-    cost = 10,
-    weight = 0.25,
-    select_card = 'consumeables',
-    create_card = function(self, card)
-        return create_card("abs_drinks", G.pack_cards, nil, nil, true, true, nil, "worm_abs_top_shelf")
-    end,
-    ease_background_colour = function(self)
-        ease_colour(G.C.DYN_UI.MAIN, G.C.SECONDARY_SET.abs_drinks)
-        ease_background_colour({ new_colour = G.C.SECONDARY_SET.abs_drinks, special_colour = G.C.BLACK, contrast = 1 })
-    end,
-    particles = function(self)
-        G.booster_pack_stars = Particles(1, 1, 0, 0, {
-            timer = 0.03,
-            scale = 0.3,
-            lifespan = 5,
-            speed = 3,
-            vel_variation = 0.3,
-            padding = -2,
-            r_vel = 0,
-            attach = G.ROOM_ATTACH,
-            colours = { adjust_alpha(G.C.WHITE, 0.4), adjust_alpha(HEX('fddca0'), 0.2), adjust_alpha(G.C.SET.abs_drinks, 0.3) },
-            fill = true,
-            rotation = math.pi,
-            rotation_variance = 0,
-            shape = 'circle',
-        })
-    end,
-    loc_vars = function(self, info_queue, card)
-        return { vars = { math.min(card.ability.choose + (G.GAME.modifiers.booster_choice_mod or 0), math.max(1, card.ability.extra + (G.GAME.modifiers.booster_size_mod or 0))), math.max(1, card.ability.extra + (G.GAME.modifiers.booster_size_mod or 0)) } }
-    end
+    cost = 10
 }
 
 --#endregion
